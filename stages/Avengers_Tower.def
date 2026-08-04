@@ -1,0 +1,105 @@
+[Info]
+name = "Torre dos Vingadores"
+
+[Camera]
+startx = 0
+starty = 0
+boundleft = -175
+boundright = 175
+boundhigh = -200
+boundlow = 0
+verticalfollow = 1
+floortension = 75
+tension = 60
+
+[PlayerInfo]
+p1startx = -70
+p1starty = 0
+p1startz = 0
+p1facing = 1
+
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+
+leftbound  = -1000
+rightbound =  1000
+topbound  =  0
+botbound  =  0
+
+[Scaling]
+topz     = 0
+botz     = 50
+topscale = 1
+botscale = 1.2
+
+[Bound]
+screenleft = 25
+screenright = 25
+
+[Shadow]
+color = 30,30,30   
+yscale = .05            
+reflect = 0     
+
+[StageInfo]
+zoffset = 223
+autoturn = 1
+resetBG = 1
+[Shadow]
+color = 0,0,0
+yscale = .5
+
+[Music]
+bgmusic =sound/MsMarvel.mp3
+bgvolume = 255
+
+[BGdef]
+spr = stages/Avengers_Tower.sff
+debugbg = 1
+
+[BG Sky]
+type            = normal
+spriteno        = 0, 0
+layerno         = 0
+start           = 0,0
+delta 		= 1,1
+trans           = None
+mask            = 1
+
+[BG Clouds]
+type            = normal
+spriteno        = 0, 1
+layerno         = 0
+start           = 0,0
+delta 		= 1,1
+trans           = None
+mask            = 1
+
+[BG Tower]
+type            = normal
+spriteno        = 0, 2
+layerno         = 0
+start           = 0,0
+delta 		= 1,1
+trans           = None
+mask            = 1
+
+[BG Trucks]
+type            = normal
+spriteno        = 0, 3
+layerno         = 0
+start           = 0,0
+delta 		= 1,1
+trans           = None
+mask            = 1
+
+[BG Plane]
+type            = normal
+spriteno        = 0, 4
+layerno         = 0
+start           = 0,0
+delta 		= 1,1
+trans           = None
+mask            = 1
