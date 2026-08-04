@@ -1,0 +1,510 @@
+;
+;------------------------------------------------------------------------------------
+; Sprites by: MatreroG, Raiken, Halt77, Merku, SpriteFX, & Bonzai
+; Original BGM: Fantastic Four, Flame On! - Tutorial Level (MatreroG Mix).mp3
+; Date: feb/10/2019
+;
+; Other info: I was playing with several superheroes games for the GBA emulator. So,
+; in this case, I rip the Training Level of the game Fantastic Four: Flame On!, and
+; adding others sprites try to transform it into a MUGEN stage.  
+; 
+; Tested in MUGEN 1.1
+;====================================================================================
+
+[Info]
+ ;Name of the stage.
+name = "F4TrainingFacility-FantasticFour:FlameOn!(GBA)_1.1Zoom"
+author = "MatreroG"
+displayname = "usa newyork baxter building"
+
+[Camera]
+startx = 0
+starty = 0
+boundleft = -300
+boundright = 300
+boundhigh = -100
+boundlow = -10
+verticalfollow = 1.5
+floortension = 125
+tension = 125
+zoomin=.8
+zoomout=.5
+
+
+[PlayerInfo]
+;--- Player 1 ---
+p1startx = -70      
+p1starty = 0          
+p1startz = 0            
+p1facing = 1            
+
+;--- Player 2 ---
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+
+leftbound = -1000
+rightbound = 1000 
+topbound = 0 
+botbound = 0 
+
+[Scaling]
+topz     = 0       
+botz     = 50     
+topscale = 1       
+botscale = 1.2     
+
+[Bound]
+screenleft = 15
+screenright = 15
+
+[StageInfo]
+zoffset =200
+autoturn = 1
+resetBG = 0
+
+[Shadow]
+intensity = 70
+color = 30,30,30
+yscale = 0.2	
+fade.range = -50, -30
+
+[Music]
+bgmusic = sound/fantasic4.mp3
+bgvolume = 255
+
+[BGdef]
+spr = xf4.sff
+debugbg = 0
+;-------------------------------------
+;back
+
+
+
+
+
+
+[BG sky]
+type        = normal
+spriteno    = 2,3
+layerno     = 0
+start       = -100,-100
+delta       = 0.2,0.3
+tile  = 1, 0
+tilespacing = 0,0
+velocity = .1,0
+trans=add
+
+
+
+[BG sky]
+type        = normal
+spriteno    = 2,2
+layerno     = 0
+start       = -100,-100
+delta       = 0.3,0.4
+tile  = 1, 0
+tilespacing = 0,0
+velocity = .2,0
+trans=add
+
+[BG sun]
+type        = normal
+spriteno    = 2,4
+layerno     = 0
+start       = 0,0
+delta       = 0.1,0.2
+mask = 1
+
+[BG mount]
+type        = normal
+spriteno    = 2,1
+layerno     = 0
+start       = -200,-50
+delta       = 0.4,0.5
+mask = 1
+
+[BG sky]
+type        = normal
+spriteno    = 2,2
+layerno     = 0
+start       = 0,0
+delta       = 0.5,0.6
+tile  = 1, 0
+tilespacing = 0,0
+velocity = .3,0
+trans=add
+
+[BG mount]
+type        = normal
+spriteno    = 2,1
+layerno     = 0
+start       = 0,0
+delta       = 0.6,0.7
+mask = 1
+
+[BG sky]
+type        = normal
+spriteno    = 2,3
+layerno     = 0
+start       = 0,0
+delta       = 0.7,0.8
+tile  = 1, 0
+tilespacing = 0,0
+velocity = .4,0
+trans=add
+
+[BG FOREST]
+type        = normal
+spriteno    = 2,0
+layerno     = 0
+start       = 0,0
+delta       = 0.8,0.9
+trans       = none
+mask=1
+
+[BG TRAINING FACILITY]
+type        = normal
+spriteno    = 0,0
+mask        = 1
+layerno     = 0
+start       = 0,0
+delta       = 0.99,1
+trans       = none
+
+
+
+
+[BG FACILITY AMB LIGHT]
+type        = normal
+spriteno    = 0,1
+mask        = 1
+layerno     = 0
+start       = 0,0
+delta       = 0.99,1
+trans       = addalpha
+alpha       = 125,256
+
+[BG FACILITY COMPU]
+type        = normal
+spriteno    = 0,14
+mask        = 1
+layerno     = 0
+start       = 0,0
+delta       = 1,1
+trans       = none
+
+[BG FACILITY COMPU SCREENS]
+type        = anim
+spriteno    = 0,16
+actionno    = 3
+mask        = 1
+layerno     = 0
+start       = 0,0
+delta       = 1,1
+trans       = none
+
+[Begin Action 3]
+0,16,0,0,3
+0,17,0,0,3
+0,18,0,0,3
+0,19,0,0,5
+
+[BG FACILITY COMPU SCREENS 2]
+type        = anim
+spriteno    = 6,0
+actionno    = 7
+mask        = 1
+layerno     = 0
+start       = 0,0
+delta       = 1,1
+trans       = none
+
+[Begin Action 7]
+6,0,0,0,8
+6,1,0,0,8
+6,2,0,0,8
+6,0,0,0,8
+6,1,0,0,8
+6,2,0,0,8
+6,0,0,0,8
+6,1,0,0,8
+6,2,0,0,8
+6,0,0,0,8
+6,1,0,0,8
+6,2,0,0,8
+6,3,0,0,8
+6,4,0,0,8
+6,5,0,0,8
+6,3,0,0,8
+6,4,0,0,8
+6,5,0,0,8
+6,0,0,0,8
+6,1,0,0,8
+6,2,0,0,8
+6,0,0,0,8
+6,1,0,0,8
+6,2,0,0,8
+6,0,0,0,8
+6,1,0,0,8
+6,2,0,0,8
+6,0,0,0,8
+6,1,0,0,8
+6,2,0,0,8
+6,6,0,0,8
+6,7,0,0,8
+6,8,0,0,8
+6,9,0,0,8
+6,10,0,0,8
+6,11,0,0,8
+6,1,0,0,8
+
+[BG FACILITY COMPU SCREENS ABC]
+type        = anim
+spriteno    = 6,12
+actionno    = 8
+mask        = 1
+layerno     = 0
+start       = 0,0
+delta       = 1,1
+trans       = addalpha
+alpha       = 100,220
+
+[Begin Action 8]
+6,12,0,0,2
+6,13,0,0,2
+6,12,0,0,2
+6,14,0,0,2
+
+[BG FACILITY TOP]
+type        = normal
+spriteno    = 0,2
+mask        = 1
+layerno     = 0
+start       = 0,0
+delta       = 0.96,0.98
+trans       = none
+
+[BG FACILITY TOP SCREENS]
+type        = anim
+spriteno    = 0,3
+actionno    = 1
+mask        = 1
+layerno     = 0
+start       = 0,0
+delta       = 0.96,0.98
+trans       = none
+
+[Begin Action 1]
+0,3,0,0,90
+0,4,0,0,7
+0,5,0,0,7
+0,6,0,0,7
+0,7,0,0,7
+0,8,0,0,7
+0,9,0,0,7
+0,10,0,0,7
+0,11,0,0,7
+0,12,0,0,7
+0,13,0,0,7
+
+[BG FACILITY TOP LIGHTS]
+type        = normal
+spriteno    = 0,20
+mask        = 1
+layerno     = 0
+start       = 0,0
+delta       = 0.96,0.98
+trans       = addalpha
+alpha       = 150,256
+
+;[BG SIREN]
+;type        = anim
+;spriteno    = 5,0
+;actionno    = 6
+;mask        = 1
+;layerno     = 0
+;start       = 18,-86
+;delta       = 0.99,1
+;trans       = none
+
+;[Begin Action 6]
+;5,0,0,0,8
+;5,1,0,0,8
+;5,2,0,0,8
+;5,3,0,0,8
+;5,4,0,0,8
+;5,5,0,0,8
+;5,5,0,0,8
+
+;[BG SIREN LIGHT]
+;type        = normal
+;spriteno    = 5,7
+;mask        = 1
+;layerno     = 0
+;start       = 18,-86
+;delta       = 0.99,1
+;trans       = addalpha
+;alpha       = 105,256
+
+[BG WATER]
+type        = anim
+spriteno    = 3,0
+actionno    = 2
+mask        = 1
+layerno     = 0
+start       = 364,73
+delta       = 0.99,1
+trans       = none
+
+[Begin Action 2]
+3,0,0,0,8
+3,1,0,0,8
+3,2,0,0,8
+3,3,0,0,8
+
+[BG FLOOR]
+type        = parallax
+spriteno    = 1,0
+mask        = 1
+layerno     = 0
+start       = 0,0
+xscale      = 1,1.25
+trans       = none
+
+
+[BG FACILITY CHAIRS]
+type        = normal
+spriteno    = 0,15
+mask        = 1
+layerno     = 0
+start       = 0,0
+delta       = 1.02,1
+trans       = none
+
+[BG Truck]
+type        = normal
+spriteno    = 10,0
+mask        = 1
+layerno     = 0
+start       = 250,160
+delta       = 1.06,1
+trans       = none
+
+
+[BG FENCE]
+type        = normal
+spriteno    = 1,3
+mask        = 1
+layerno     = 0
+start       = 0,0
+delta       = 1.08,1
+trans       = none
+
+[BG Truck]
+type        = normal
+spriteno    = 10,0
+mask        = 1
+layerno     = 0
+start       = 300,175
+delta       = 1.1,1
+trans       = none
+
+[BG FACILITY DRON1]
+type        = anim
+spriteno    = 4,0
+actionno    = 4
+mask        = 1
+layerno     = 0
+start       = -500,75
+delta       = 1.1,0.95
+trans       = none
+sin.x       = 150,400,0
+sin.y       = 20,150,0
+
+[Begin Action 4]
+4,0,0,0,8
+4,1,0,0,8
+4,2,0,0,8
+4,3,0,0,8
+4,4,0,0,8
+4,5,0,0,8
+
+[BG FACILITY DRON1 SHADOW]
+type        = normal
+spriteno    = 4,6
+mask        = 1
+layerno     = 0
+start       = -500,150
+delta       = 1.1,0.95
+trans       = addalpha
+alpha       = 110,90
+sin.x       = 150,400,0
+
+[BG FACILITY DRON2]
+type        = anim
+spriteno    = 4,0
+actionno    = 5
+mask        = 1
+layerno     = 0
+start       = 0,25
+delta       = 1.5,0.95
+trans       = none
+sin.x       = 200,500,0
+sin.y       = 25,175,0
+
+[Begin Action 5]
+4,0,0,0,8,H
+4,1,0,0,8,H
+4,2,0,0,8,H
+4,3,0,0,8,H
+4,4,0,0,8,H
+4,5,0,0,8,H
+
+[BG FACILITY DRON2 SHADOW]
+type        = normal
+spriteno    = 4,6
+mask        = 1
+layerno     = 0
+start       = -45,150
+delta       = 1.5,0.95
+trans       = addalpha
+alpha       = 110,90
+sin.x       = 200,500,0
+
+
+
+[BG FLOOR FRONT]
+type        = normal
+spriteno    = 1,1
+mask        = 1
+start       = 0,0
+delta       = 1.2,1
+trans       = none
+
+[BG FLOOR FRONT]
+type        = normal
+spriteno    = 1,1
+mask        = 1
+layerno     = 1
+start       = 0,0
+delta       = 1.2,1
+trans       = none
+
+
+[BG TRAINING Front]
+type        = normal
+spriteno    = 100,0
+mask        = 1
+start       = 0,0
+delta       = 1.2,1
+trans       = none
+[BG TRAINING Front]
+type        = normal
+spriteno    = 100,0
+mask        = 1
+layerno     = 1
+start       = 0,0
+delta       = 1.2,1
+trans       = none

@@ -1,0 +1,632 @@
+;Mittelbirge Castle, Krauser's stage from Real Bout Fatal Fury Special, by Phantom.of.the.Server
+;Special thanks to dresmasher for rendering the fire sprites
+
+[Info]
+name=" Latveria Castle Doom"
+versiondate=12,19,2007
+author="Phantom.of.the.Server"
+
+[Music]
+bgmusic=sound/doom.mp3
+bgvolume=255
+
+[Camera]
+startx = 0
+starty = 0
+boundleft = 0
+boundright = 0
+boundhigh = -100
+boundlow = -10
+verticalfollow = 1.5
+floortension = 125
+tension = 125
+zoomin=.8
+zoomout=.5
+
+[PlayerInfo]
+p1startx=-80
+p1starty=0
+p1startz=0
+p1facing=1
+
+p2startx=80
+p2starty=0
+p2startz=0
+p2facing=-1
+
+leftbound=-1000
+rightbound=1000
+topbound=0
+botbound=0
+
+[Scaling]
+topz=0
+botz=50
+topscale=1
+botscale=1.2
+
+[Bound]
+screenleft=20
+screenright=20
+
+[StageInfo]
+zoffset=217
+autoturn=1
+resetBG=0
+
+[Shadow]
+intensity=0
+color=96,96,96
+yscale=.33
+fade.range=0,0
+
+
+;=====<MAIN BG DEFINITION>=====
+[BGdef]
+spr=stages/Xdoom.sff
+debugbg=0
+
+[BG black]
+type=normal
+spriteno=0,99
+layerno=0
+start=0,0
+delta=0,0
+tile=1,1
+tilespacing=0,0
+mask=0
+
+[BG clouds]
+type=parallax
+spriteno=0,4
+layerno=0
+start=0,0
+delta=.25,.6
+width=500,250
+tile=1,0
+tilespacing=0
+velocity=.25,0
+mask=1
+
+[BG moon]
+type  = normal
+spriteno = 7, 0
+start = -25, 0
+delta=.4,.4
+mask = 1
+trans=add
+
+
+[BG clouds]
+type=parallax
+spriteno=0,4
+layerno=0
+start=100,100
+delta=.5,.6
+width=500,250
+tile=1,0
+tilespacing=0
+velocity=.5,0
+mask=1
+trans=add
+
+[BG bolt back]
+type=anim
+actionno=0
+layerno=0
+start=-60,0
+delta=.5,1
+ID=10
+
+[BG town]
+type=normal
+spriteno=0,3
+layerno=0
+start=100,0
+delta=.6,1
+mask=1
+
+[BG light]
+type=anim
+actionno=0
+layerno=0
+start=0,0
+delta=0,0
+ID=8
+tile=1,1
+tilespacing=80
+
+[BG bolt front]
+type=anim
+actionno=0
+layerno=0
+start=-60,0
+delta=.5,1
+ID=14
+
+
+[BG castle]
+type=normal
+spriteno=0,2
+layerno=0
+start=0,0
+delta=.8,.8
+mask=1
+
+[BG light]
+type=anim
+actionno=0
+layerno=0
+start=0,0
+delta=.8,.8
+ID=9
+
+[BG rain back]
+type=anim
+actionno=6
+layerno=0
+start=0,-240
+delta=.80769231,1
+tile=1,1
+tilespacing=100
+velocity=.16,0
+
+[BG rain back]
+type=anim
+actionno=6
+layerno=0
+start=0,0
+delta=.80769231,1
+tile=1,1
+tilespacing=100
+velocity=.16,0
+
+[BG main]
+type=normal
+spriteno=0,0
+layerno=0
+start=0,0
+delta=1,1
+mask=1
+
+[BG fire]
+type=anim
+actionno=1
+layerno=0
+start=-105,112
+delta=1,1
+
+
+[BG fire]
+type=anim
+actionno=2
+layerno=0
+start=105,112
+delta=1,1
+
+[BG fire]
+type=anim
+actionno=1
+layerno=0
+start=-190,-30
+delta=1,1
+
+
+[BG fire]
+type=anim
+actionno=2
+layerno=0
+start=190,-30
+delta=1,1
+
+
+[BG column]
+type=normal
+spriteno=0,1
+layerno=1
+start=0,0
+delta=1,1
+mask=1
+
+[BG throne]
+type=normal
+spriteno=100,100
+layerno=0
+start=0,70
+delta=1,1
+mask=1
+
+
+[BG rain front]
+type=anim
+actionno=5
+layerno=1
+start=0,0
+delta=1,1
+tile=1,1
+tilespacing=100
+velocity=.2,0
+
+[BG rain front]
+type=anim
+actionno=5
+layerno=1
+start=0,-240
+delta=1,1
+tile=1,1
+tilespacing=100
+velocity=.2,0
+
+;=====<BGCTRLDEF>=====
+;---Put out fire---
+[BGctrldef 1]
+ctrlid=1,2
+
+[BGctrl 1, anim]
+type=anim
+time=3072
+ctrlid=1
+value=3
+[BGctrl 1, anim]
+type=anim
+time=2432
+ctrlid=2
+value=4
+
+
+
+
+;---Lightning Bolt Anims---
+[BGctrldef 10]
+ctrlid=8,9,10,14
+looptime=900
+[BGctrl 10, anim]
+type=anim
+time=0
+value=0
+
+[BGctrl 10, anim]
+type=anim
+time=120
+ctrlid=8
+value=8
+[BGctrl 10, anim]
+type=anim
+time=120
+ctrlid=9
+value=9
+[BGctrl 10, anim]
+type=anim
+time=120
+ctrlid=10
+value=10
+
+[BGctrl 10, anim]
+type=anim
+time=180
+ctrlid=8
+value=8
+[BGctrl 10, anim]
+type=anim
+time=180
+ctrlid=9
+value=9
+[BGctrl 10, anim]
+type=anim
+time=180
+ctrlid=10
+value=12
+
+[BGctrl 10, anim]
+type=anim
+time=300
+ctrlid=8
+value=8
+[BGctrl 10, anim]
+type=anim
+time=300
+ctrlid=9
+value=9
+[BGctrl 10, anim]
+type=anim
+time=300
+ctrlid=14
+value=14
+
+[BGctrl 10, anim]
+type=anim
+time=420
+ctrlid=8
+value=8
+[BGctrl 10, anim]
+type=anim
+time=420
+ctrlid=9
+value=9
+[BGctrl 10, anim]
+type=anim
+time=420
+ctrlid=10
+value=13
+
+[BGctrl 10, anim]
+type=anim
+time=540
+ctrlid=8
+value=8
+[BGctrl 10, anim]
+type=anim
+time=540
+ctrlid=9
+value=9
+[BGctrl 10, anim]
+type=anim
+time=540
+ctrlid=10
+value=11
+
+[BGctrl 10, anim]
+type=anim
+time=600
+ctrlid=8
+value=8
+[BGctrl 10, anim]
+type=anim
+time=600
+ctrlid=9
+value=9
+[BGctrl 10, anim]
+type=anim
+time=600
+ctrlid=10
+value=13
+
+[BGctrl 10, anim]
+type=anim
+time=720
+ctrlid=8
+value=8
+[BGctrl 10, anim]
+type=anim
+time=720
+ctrlid=9
+value=9
+[BGctrl 10, anim]
+type=anim
+time=720
+ctrlid=10
+value=10
+
+[BGctrl 10, anim]
+type=anim
+time=780
+ctrlid=8
+value=8
+[BGctrl 10, anim]
+type=anim
+time=780
+ctrlid=9
+value=9
+[BGctrl 10, anim]
+type=anim
+time=780
+ctrlid=14
+value=15
+
+
+;---Lightning Bolt Positions---
+[BGctrldef 11]
+ctrlid=10,12
+looptime=600
+
+[BGctrl 11, pos]
+type=posset
+time=0
+x=0
+[BGctrl 11, pos]
+type=posset
+time=60
+x=50
+[BGctrl 11, pos]
+type=posset
+time=120
+x=-25
+[BGctrl 11, pos]
+type=posset
+time=180
+x=25
+[BGctrl 11, pos]
+type=posset
+time=240
+x=-50
+[BGctrl 11, pos]
+type=posset
+time=360
+x=-100
+[BGctrl 11, pos]
+type=posset
+time=480
+x=100
+
+
+;=====<ANIMATION>=====
+[Begin Action 0]
+-1,-1, 0,0, -1, ,
+
+[Begin Action 1]
+1,0, 0,0, 4,, A
+1,1, 0,0, 4,, A
+1,2, 0,0, 4,, A
+1,3, 0,0, 4,, A
+1,4, 0,0, 4,, A
+1,5, 0,0, 4,, A
+1,6, 0,0, 4,, A
+1,7, 0,0, 4,, A
+1,8, 0,0, 4,, A
+1,9, 0,0, 4,, A
+1,10, 0,0, 4,, A
+1,11, 0,0, 4,, A
+1,12, 0,0, 4,, A
+1,13, 0,0, 4,, A
+1,14, 0,0, 4,, A
+1,15, 0,0, 4,, A
+1,16, 0,0, 4,, A
+1,17, 0,0, 4,, A
+1,18, 0,0, 4,, A
+1,19, 0,0, 4,, A
+1,20, 0,0, 4,, A
+1,21, 0,0, 4,, A
+1,22, 0,0, 4,, A
+1,23, 0,0, 4,, A
+1,24, 0,0, 4,, A
+1,25, 0,0, 4,, A
+1,26, 0,0, 4,, A
+1,27, 0,0, 4,, A
+1,28, 0,0, 4,, A
+1,29, 0,0, 4,, A
+1,30, 0,0, 4,, A
+1,31, 0,0, 4,, A
+
+[Begin Action 2]
+1,16, 0,0, 4,H, A
+1,17, 0,0, 4,H, A
+1,18, 0,0, 4,H, A
+1,19, 0,0, 4,H, A
+1,20, 0,0, 4,H, A
+1,21, 0,0, 4,H, A
+1,22, 0,0, 4,H, A
+1,23, 0,0, 4,H, A
+1,24, 0,0, 4,H, A
+1,25, 0,0, 4,H, A
+1,26, 0,0, 4,H, A
+1,27, 0,0, 4,H, A
+1,28, 0,0, 4,H, A
+1,29, 0,0, 4,H, A
+1,30, 0,0, 4,H, A
+1,31, 0,0, 4,H, A
+1,0, 0,0, 4,H, A
+1,1, 0,0, 4,H, A
+1,2, 0,0, 4,H, A
+1,3, 0,0, 4,H, A
+1,4, 0,0, 4,H, A
+1,5, 0,0, 4,H, A
+1,6, 0,0, 4,H, A
+1,7, 0,0, 4,H, A
+1,8, 0,0, 4,H, A
+1,9, 0,0, 4,H, A
+1,10, 0,0, 4,H, A
+1,11, 0,0, 4,H, A
+1,12, 0,0, 4,H, A
+1,13, 0,0, 4,H, A
+1,14, 0,0, 4,H, A
+1,15, 0,0, 4,H, A
+
+[Begin Action 3]
+1,0, 0,0, 4,, AS240D256
+1,1, 0,0, 4,, AS224D256
+1,2, 0,0, 4,, AS208D256
+1,3, 0,0, 4,, AS192D256
+1,4, 0,0, 4,, AS176D256
+1,5, 0,0, 4,, AS160D256
+1,6, 0,0, 4,, AS144D256
+1,7, 0,0, 4,, AS128D256
+1,8, 0,0, 4,, AS112D256
+1,9, 0,0, 4,, AS96D256
+1,10, 0,0, 4,, AS80D256
+1,11, 0,0, 4,, AS64D256
+1,12, 0,0, 4,, AS48D256
+1,13, 0,0, 4,, AS32D256
+1,14, 0,0, 4,, AS16D256
+-1,-1, 0,0, -1,,
+
+[Begin Action 4]
+1,16, 0,0, 4,H, AS240D256
+1,17, 0,0, 4,H, AS224D256
+1,18, 0,0, 4,H, AS208D256
+1,19, 0,0, 4,H, AS192D256
+1,20, 0,0, 4,H, AS176D256
+1,21, 0,0, 4,H, AS160D256
+1,22, 0,0, 4,H, AS144D256
+1,23, 0,0, 4,H, AS128D256
+1,24, 0,0, 4,H, AS112D256
+1,25, 0,0, 4,H, AS96D256
+1,26, 0,0, 4,H, AS80D256
+1,27, 0,0, 4,H, AS64D256
+1,28, 0,0, 4,H, AS48D256
+1,29, 0,0, 4,H, AS32D256
+1,30, 0,0, 4,H, AS16D256
+-1,-1, 0,0, -1,,
+
+[Begin Action 5]
+5,0, 0,0, 6,, A
+5,1, 0,0, 6,, A
+5,2, 0,0, 6,, A
+5,3, 0,0, 6,, A
+5,4, 0,0, 6,, A
+
+[Begin Action 6]
+6,0, 0,0, 4,, A
+6,1, 0,0, 4,, A
+6,2, 0,0, 4,, A
+6,3, 0,0, 4,, A
+6,4, 0,0, 4,, A
+
+
+[Begin Action 9]
+9,0, 0,0, 1,, AS256D256
+9,0, 0,0, 1,, AS240D256
+9,0, 0,0, 1,, AS224D256
+9,0, 0,0, 1,, AS208D256
+9,0, 0,0, 1,, AS192D256
+9,0, 0,0, 1,, AS176D256
+9,0, 0,0, 1,, AS160D256
+9,0, 0,0, 1,, AS144D256
+9,0, 0,0, 1,, AS128D256
+9,0, 0,0, 1,, AS112D256
+9,0, 0,0, 1,, AS96D256
+9,0, 0,0, 1,, AS80D256
+9,0, 0,0, 1,, AS64D256
+9,0, 0,0, 1,, AS48D256
+9,0, 0,0, 1,, AS32D256
+9,0, 0,0, 1,, AS16D256
+-1,-1, 0,0, -1
+
+[Begin Action 10]
+10,0, 0,0, 2,, A
+10,1, 0,0, 2,, A
+10,2, 0,0, 2,, A
+10,3, 0,0, 2,, A
+10,4, 0,0, 2,, A
+10,8,0,0, 2,, A
+-1,-1, 0,0, -1
+
+[Begin Action 11]
+10,0, 0,0, 2,H, A
+10,1, 0,0, 2,H, A
+10,2, 0,0, 2,H, A
+10,3, 0,0, 2,H, A
+10,4, 0,0, 2,H, A
+10,8,0,0, 2,H, A
+-1,-1, 0,0, -1
+
+[Begin Action 12]
+12,0, 0,0, 3,, A
+12,1, 0,0, 3,, A
+12,2, 0,0, 3,, A
+-1,-1, 0,0, -1
+
+[Begin Action 13]
+12,0, 0,0, 3,H, A
+12,1, 0,0, 3,H, A
+12,2, 0,0, 3,H, A
+-1,-1, 0,0, -1
+
+[Begin Action 14]
+14,0, 0,0, 3,, A
+14,1, 0,0, 3,, A
+-1,-1, 0,0, -1
+
+[Begin Action 15]
+14,0, 0,0, 3,H, A
+14,1, 0,0, 3,H, A
+-1,-1, 0,0, -1
