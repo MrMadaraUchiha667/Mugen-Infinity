@@ -1,0 +1,19 @@
+[Info]
+name ="Abomination"
+displayname ="Abominavel"
+versiondate =
+mugenversion =1.1
+author ="Thales M."
+pal.defaults =1,2,3
+
+[Files]
+sprite =abomination.sff
+anim =abomination.air
+sound =abomination.snd
+cmd =abomination.cmd
+cns =abomination.cns
+stcommon =common1.cns
+st =abomination.st
+pal1=01.act
+pal2=02.act
+pal3=03.act
