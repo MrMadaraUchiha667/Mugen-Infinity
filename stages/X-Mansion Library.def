@@ -1,0 +1,642 @@
+;ÅwMELTY BLOOD Act CadenzaÅxÇÊÇËâìñÏì@ÅEóÜê˘èëå…/Classic home.Huge library
+
+[Info]
+name = "X-Mansion Library"
+
+[StageInfo]
+zoffset = 220
+autoturn = 1
+resetBG = 1
+HIres = 1
+
+[Camera]
+startx = 0
+starty = 0
+boundleft = -110
+boundright = 110
+boundhigh = -180
+boundlow =  0
+verticalfollow = .95
+tension = 40
+floortension = 62
+
+
+[PlayerInfo]
+;--- Player 1 ---
+p1startx = -80
+p1starty = 0
+p1startz = 0
+p1facing = 1
+;--- Player 2 ---
+p2startx = 80
+p2starty = 0
+p2startz = 0
+p2facing = -1
+;--- Common ---
+leftbound = -1000
+rightbound = 1000
+topbound = 0
+botbound = 0
+
+[Scaling]
+topz = 0
+botz = 50
+topscale = 1
+botscale = 1.2
+
+[Bound]
+screenleft = 15
+screenright = 15
+
+[Shadow]
+intensity = 128
+yscale = 0.35
+fade.range = -300,-50
+
+[Reflection]
+intensity = 0
+
+[Music]
+bgmusic = sound/library.mp3
+bgm.loop = 1
+bgvolume = 255
+
+[BGdef]
+spr = stages/X-Mansion Library.sff
+debugbg = 0
+
+[BG 001]
+type = normal
+spriteno = 0,0
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 002]
+type = normal
+spriteno = 0,1
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 003]
+type = normal
+spriteno = 0,2
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 004]
+type = normal
+spriteno = 0,3
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 005]
+type = normal
+spriteno = 0,4
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 006]
+type = normal
+spriteno = 0,5
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 007]
+type = normal
+spriteno = 0,6
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 008]
+type = normal
+spriteno = 0,7
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 011]
+type = normal
+spriteno = 0,8
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 012]
+type = normal
+spriteno = 0,9
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 013]
+type = normal
+spriteno = 0,10
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 014]
+type = normal
+spriteno = 0,11
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 015]
+type = normal
+spriteno = 0,12
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 016]
+type = normal
+spriteno = 0,13
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 017]
+type = normal
+spriteno = 0,14
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 018]
+type = normal
+spriteno = 0,15
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 021]
+type = normal
+spriteno = 0,16
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 022]
+type = normal
+spriteno = 0,17
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 023]
+type = normal
+spriteno = 0,18
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 024]
+type = normal
+spriteno = 0,19
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 025]
+type = normal
+spriteno = 0,20
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 026]
+type = normal
+spriteno = 0,21
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 027]
+type = normal
+spriteno = 0,22
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 028]
+type = normal
+spriteno = 0,23
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 031]
+type = normal
+spriteno = 0,24
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 032]
+type = normal
+spriteno = 0,25
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 033]
+type = normal
+spriteno = 0,26
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 034]
+type = normal
+spriteno = 0,27
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 035]
+type = normal
+spriteno = 0,28
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 036]
+type = normal
+spriteno = 0,29
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 037]
+type = normal
+spriteno = 0,30
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 038]
+type = normal
+spriteno = 0,31
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 041]
+type = normal
+spriteno = 0,32
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 042]
+type = normal
+spriteno = 0,33
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 043]
+type = normal
+spriteno = 0,34
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 044]
+type = normal
+spriteno = 0,35
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 045]
+type = normal
+spriteno = 0,36
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 046]
+type = normal
+spriteno = 0,37
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 047]
+type = normal
+spriteno = 0,38
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 048]
+type = normal
+spriteno = 0,39
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 051]
+type = normal
+spriteno = 0,40
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 052]
+type = normal
+spriteno = 0,41
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 053]
+type = normal
+spriteno = 0,42
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 054]
+type = normal
+spriteno = 0,43
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 055]
+type = normal
+spriteno = 0,44
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 056]
+type = normal
+spriteno = 0,45
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 057]
+type = normal
+spriteno = 0,46
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 058]
+type = normal
+spriteno = 0,47
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 061]
+type = normal
+spriteno = 0,48
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 062]
+type = normal
+spriteno = 0,49
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 063]
+type = normal
+spriteno = 0,50
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 064]
+type = normal
+spriteno = 0,51
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 065]
+type = normal
+spriteno = 0,52
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 066]
+type = normal
+spriteno = 0,53
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 067]
+type = normal
+spriteno = 0,54
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 068]
+type = normal
+spriteno = 0,55
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 071]
+type = normal
+spriteno = 0,56
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 072]
+type = normal
+spriteno = 0,57
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 073]
+type = normal
+spriteno = 0,58
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 074]
+type = normal
+spriteno = 0,59
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 075]
+type = normal
+spriteno = 0,60
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 076]
+type = normal
+spriteno = 0,61
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 077]
+type = normal
+spriteno = 0,62
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0
+
+[BG 078]
+type = normal
+spriteno = 0,63
+layerno = 0
+start = -600,-404
+delta = 1.8, 1.8
+trans = none
+mask = 0

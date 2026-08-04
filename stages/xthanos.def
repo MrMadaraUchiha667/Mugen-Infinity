@@ -1,0 +1,360 @@
+[Info]
+name="unknown space Thanos palace" 
+autor= JC ; http://eternal.mgbr.net ; Coge lo que desees
+
+[Camera]
+startx = 0
+starty = 0
+boundleft = -150
+boundright = 150
+boundhigh = -100
+boundlow = -10
+verticalfollow = 1.5
+floortension = 125
+tension = 125
+zoomin=.8
+zoomout=.5
+
+
+[PlayerInfo]
+p1startx=-70
+p1starty=0
+p1startz=0
+p1facing=1
+
+p2startx= 70
+p2starty=0
+p2startz=0
+p2facing=-1
+
+leftbound=-1000
+rightbound=1000
+topbound=0
+botbound=0
+
+[Scaling]
+topz=0
+botz=50
+topscale=1
+botscale=1.2
+
+[Bound]
+screenleft=15
+screenright=15
+
+[StageInfo]
+zoffset=215
+autoturn=1
+resetBG = 0
+
+[Shadow]
+color = 64,64,64
+yscale = .15
+
+[Music]
+bgmusic= sound\thanos.mp3
+bgvolume= 200
+
+[BGdef]
+spr=stages\xthanos.sff
+DEBUGBG=0
+
+[BG B]
+type  = normal
+spriteno = 0,0
+start = 0, 0
+delta = .1, .1
+mask = 1
+sin.y = 5, 500
+
+[BG A]
+type  = normal
+spriteno = 3,0
+start = 0, 16
+delta = .2, .2
+mask = 1
+sin.y = 5, 500
+
+[BG E]
+type  = anim
+actionno= 1
+start = 0, 16
+delta = 1, 1
+mask = 1
+
+[BG F]
+type  = anim
+actionno= 2
+start = 0, 16
+delta = 1, 1
+mask = 1
+
+[BG G]
+type  = anim
+actionno= 12
+start = -400, 16
+delta = 1, 1
+mask = 1
+
+[BG H]
+type  = anim
+actionno= 13
+start = 400, 16
+delta = 1, 1
+mask = 1
+
+
+[BG I]
+type  = normal
+spriteno = 4,1
+start = 0, 16
+delta = 1, 1
+mask = 1
+
+[BG I]
+type  = normal
+spriteno = 40,0
+start = 0, 16
+delta = 1, 1
+mask = 1
+
+[BG J]
+type  = anim
+actionno= 8
+start = 0, 16
+delta = 1, 1
+mask = 1
+
+
+
+
+[BG L]
+type  = anim
+actionno= 3
+start = 0, 16
+delta = 1, 1
+mask = 1
+
+[BG M]
+type  = anim
+actionno= 4
+start = -1, 16
+delta = 1, 1
+mask = 1
+
+
+[BG N]
+type  = anim
+actionno= 8
+start = 0, 16
+delta = 1, 1
+mask = 1
+
+
+[BG 0]
+type  = normal
+spriteno = 4,2
+start = 0, 16
+delta = 1, 1
+mask = 1
+
+[BG P]
+type  = normal
+spriteno = 4,4
+start = 0, 16
+delta = 1, 1
+mask = 1
+
+[BG K]
+type  = anim
+actionno= 7
+start = -30, -25
+delta = 1, 1
+mask = 1
+
+
+[Begin Action 1]
+1,0,0,0,-1
+
+[Begin Action 2]
+1,0,0,0,-1,H
+
+
+[Begin Action 3]
+1,2,0,0,4
+1,3,0,0,4
+1,4,0,0,4
+1,5,0,0,4
+1,6,0,0,4
+1,7,0,0,4
+
+[Begin Action 5]
+2,0,0,0,7
+2,1,0,0,7
+2,2,0,0,7
+2,3,0,0,7
+2,4,0,0,7
+2,5,0,0,7
+
+
+
+[Begin Action 4]
+1,2,0,0,4,H
+1,3,0,0,4,H
+1,4,0,0,4,H
+1,5,0,0,4,H
+1,6,0,0,4,H
+1,7,0,0,4,H
+
+[Begin Action 7]
+6,0,0,0,5
+6,1,0,0,5
+6,2,0,0,5
+6,3,0,0,5
+6,4,0,0,5
+
+
+[Begin Action 12]
+12,0,0,0,4
+12,1,0,0,4
+12,2,0,0,4
+12,3,0,0,4
+12,4,0,0,4
+
+[Begin Action 13]
+12,0,0,0,4,H
+12,1,0,0,4,H
+12,2,0,0,4,H
+12,3,0,0,4,H
+12,4,0,0,4,H
+
+[Begin Action 8]
+8, 0, 0, 0, 4
+8, 1, 0, 0, 10
+8, 2, 0, 0, 2
+8, 3, 0, 0, 10
+8, 4, 0, 0, 1
+8, 5, 0, 0, 9
+8, 6, 0, 0, 1
+8, 7, 0, 0, 7
+8, 8, 0, 0, 1
+8, 9, 0, 0, 6
+8, 10, 0, 0, 9
+8, 0, 0, 0, 4
+8, 1, 0, 0, 10
+8, 2, 0, 0, 2
+8, 3, 0, 0, 10
+8, 4, 0, 0, 1
+8, 5, 0, 0, 9
+8, 6, 0, 0, 1
+8, 7, 0, 0, 7
+8, 8, 0, 0, 1
+8, 9, 0, 0, 6
+8, 10, 0, 0, 9
+8, 0, 0, 0, 4
+8, 1, 0, 0, 10
+8, 2, 0, 0, 2
+8, 3, 0, 0, 10
+8, 4, 0, 0, 1
+8, 5, 0, 0, 9
+8, 6, 0, 0, 1
+8, 7, 0, 0, 7
+8, 8, 0, 0, 1
+8, 9, 0, 0, 6
+8, 10, 0, 0, 9
+8, 11, 0, 0, 7
+8, 1, 0, 0, 3
+8, 12, 0, 0, 7
+8, 13, 0, 0, 3
+8, 14, 0, 0, 10
+8, 15, 0, 0, 8
+8, 16, 0, 0, 2
+8, 17, 0, 0, 2
+8, 18, 0, 0, 1
+8, 17, 0, 0, 2
+8, 19, 0, 0, 1
+8, 20, 0, 0, 2
+8, 19, 0, 0, 1
+8, 20, 0, 0, 2
+8, 19, 0, 0, 1
+8, 20, 0, 0, 1
+8, 21, 0, 0, 1
+8, 22, 0, 0, 1
+8, 23, 0, 0, 2
+8, 22, 0, 0, 1
+8, 21, 0, 0, 2
+8, 22, 0, 0, 1
+8, 23, 0, 0, 2
+8, 22, 0, 0, 1
+8, 21, 0, 0, 1
+8, 24, 0, 0, 1
+8, 25, 0, 0, 1
+8, 26, 0, 0, 2
+8, 25, 0, 0, 1
+8, 27, 0, 0, 2
+8, 28, 0, 0, 0
+8, 25, 0, 0, 1
+8, 29, 0, 0, 1
+8, 30, 0, 0, 9
+8, 31, 0, 0, 8
+8, 32, 0, 0, 7
+8, 33, 0, 0, 3
+8, 34, 0, 0, 5
+8, 35, 0, 0, 12
+8, 36, 0, 0, 10
+8, 0, 0, 0, 10
+8, 1, 0, 0, 10
+8, 2, 0, 0, 2
+8, 3, 0, 0, 10
+8, 4, 0, 0, 1
+8, 5, 0, 0, 9
+8, 6, 0, 0, 1
+8, 7, 0, 0, 7
+8, 8, 0, 0, 1
+8, 9, 0, 0, 6
+8, 10, 0, 0, 9
+8, 0, 0, 0, 4
+8, 1, 0, 0, 10
+8, 2, 0, 0, 2
+8, 3, 0, 0, 10
+8, 4, 0, 0, 1
+8, 5, 0, 0, 9
+8, 6, 0, 0, 1
+8, 7, 0, 0, 7
+8, 8, 0, 0, 1
+8, 9, 0, 0, 6
+8, 10, 0, 0, 9
+8, 0, 0, 0, 4
+8, 1, 0, 0, 10
+8, 2, 0, 0, 2
+8, 3, 0, 0, 10
+8, 4, 0, 0, 1
+8, 5, 0, 0, 9
+8, 6, 0, 0, 1
+8, 7, 0, 0, 7
+8, 8, 0, 0, 1
+8, 9, 0, 0, 6
+8, 10, 0, 0, 9
+8, 41, 0, 0, 4
+8, 42, 0, 0, 10
+8, 43, 0, 0, 3
+8, 44, 0, 0, 8
+8, 45, 0, 0, 8
+8, 46, 0, 0, 2
+8, 47, 0, 0, 5
+8, 48, 0, 0, 8
+8, 49, 0, 0, 10
+8, 50, 0, 0, 2
+8, 51, 0, 0, 6
+8, 52, 0, 0, 5
+8, 53, 0, 0, 10
+8, 54, 0, 0, 1
+8, 55, 0, 0, 7
+8, 56, 0, 0, 1
+8, 57, 0, 0, 6
+8, 58, 0, 0, 4
+8, 59, 0, 0, 4
+8, 60, 0, 0, 9
+8, 61, 0, 0, 3
+8, 62, 0, 0, 8
+8, 0, 0, 0, 6
