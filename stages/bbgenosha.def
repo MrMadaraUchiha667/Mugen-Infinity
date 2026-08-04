@@ -1,0 +1,187 @@
+[Info]
+name = "Nave da SHIELD"
+
+[Camera]
+startx = 0
+starty = 0
+boundleft = -220
+boundright = 220
+boundhigh = -171
+boundlow = 0
+verticalfollow = .65
+floortension = 0
+tension = 60
+
+[PlayerInfo]
+p1startx = -70          
+p1starty = 0            
+p1startz = 0            
+p1facing = 1            
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+leftbound  = -1000 
+rightbound =  1000 
+topbound  =  0     
+botbound  =  0    
+
+[Scaling]
+topz     = 0       
+botz     = 50      
+topscale = 1       
+botscale = 1.2     
+
+[Bound]
+screenleft = 15   
+screenright = 15   
+
+[StageInfo]
+zoffset = 220
+autoturn = 1
+resetBG = 1
+
+[Shadow]
+color = 102,102,102
+yscale = .5
+reflect = 0
+
+[Music]
+bgmusic = sound/demonbr.mp3
+bgvolume = 40
+
+[BGdef]
+spr = stages/bbgenosha.sff
+debugbg = 0
+
+;-----------------------
+[BG fondo]
+type  = normal
+spriteno = 0,0
+mask = 1
+start = 0,180
+delta = 0.48,1
+
+[BG genosha]
+type  = normal
+spriteno = 0,1
+mask = 1
+start = 0,180
+velocity = 0, 0
+tile = 0
+tilespacing = 0,0
+delta = 0.7,1
+
+
+[BG Senti1]
+type = anim
+actionno = 1
+start = -400,-40
+delta = .5, .5
+id = 1
+
+[BG Senti11]
+type = anim
+actionno = 1
+start = -420,-20
+delta = .5, .5
+id = 1
+
+[BG Senti111]
+type = anim
+actionno = 1
+start = -440,0
+delta = .5, .5
+id = 1
+
+
+[BG Senti2]
+type = anim
+actionno = 2
+start = 400,-50
+delta = .5, .5
+id = 2
+
+[BG Senti22]
+type = anim
+actionno = 2
+start = 420,-30
+delta = .5, .5
+id = 2
+
+
+[BG Senti222]
+type = anim
+actionno = 2
+start = 440,-10
+delta = .5, .5
+id = 2
+
+[BG blackbird]
+type  = normal
+spriteno = 0,2
+mask = 1
+start = 0,160
+
+;-----------------------------
+
+
+[Begin Action 1]
+1,0,0,0,3
+1,1,0,0,3
+
+
+[Begin Action 2]
+1,0,0,0,3,H
+1,1,0,0,3,H
+
+;--------------------------------------------------
+;Senti
+[BGCtrlDef 2]
+looptime = 2000
+CtrlID = 1
+
+[BGCtrl 15.2]
+type = Enable
+time = 0,1000
+value = 1
+
+[BGCtrl 15.2]
+type = Enable
+time = 1000,2000
+value = 0
+
+[BGCtrl 15.3]
+type = posset
+time = 0
+x = -400
+
+[BGCtrl 15.1]
+type = VelSet
+time = 0,1000
+x = 3
+
+;Senti
+[BGCtrlDef 3]
+looptime = 2000
+CtrlID = 2
+
+[BGCtrl 15.2]
+type = Enable
+time = 0,1000
+value = 0
+
+[BGCtrl 15.2]
+type = Enable
+time = 1000,2000
+value = 1
+
+[BGCtrl 15.3]
+type = posset
+time = 1000
+x = 400
+
+[BGCtrl 15.1]
+type = VelSet
+time = 1000,2000
+x = -3
