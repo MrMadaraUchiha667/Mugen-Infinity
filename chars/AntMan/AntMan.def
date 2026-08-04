@@ -1,0 +1,19 @@
+[Info]
+name = "AntMan"
+displayname = "Homem Formiga"
+versiondate = 12/04/2013
+mugenversion = 1.0
+author = "Thales M."
+pal.defaults = 1,2,3
+
+[Files]
+sprite = AntMan.sff
+anim = AntMan.air
+sound = AntMan.snd
+cmd = AntMan.cmd
+cns = AntMan.cns
+stcommon = AntMan.cns
+st = AntMan.cns
+pal1 = 01.act
+pal2 = 02.act
+pal3 = 03.act
