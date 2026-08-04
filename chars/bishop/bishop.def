@@ -1,0 +1,19 @@
+[Info]
+name = "Bishop" 
+displayname = "Lucas Bishop"
+versiondate = 
+mugenversion = 1.1
+author = "Thales Maggot" 
+pal.defaults = 1,2,3 
+
+[Files]
+cmd     = Bishop.cmd
+cns     = Bishop.cns
+st      = Bishop.cns  
+stcommon= common.cns
+sprite  = Bishop.sff 
+anim    = Bishop.air 
+sound   = Bishop.snd 
+pal1    = 01.act
+pal2    = 02.act
+pal3    = 03.act
