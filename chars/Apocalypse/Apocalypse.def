@@ -1,0 +1,33 @@
+[Info]
+name = "Apocalypse"
+displayname = "Apocalipse"
+versiondate = 1.1
+mugenversion = 1.1
+author = "Thales M."
+pal.defaults = 1,2,3,4,5,6
+
+[Files]
+sprite = Apocalypse.sff
+anim = Apocalypse.air
+sound = Apocalypse.snd
+cmd = Apocalypse.cmd
+cns = Apocalypse.cns
+stcommon = common1.cns
+st = Apocalypse.cns
+st1 = horsemen.st
+st2 = hugeapoc.cns
+st3 = hugeparts.cns
+st4 = hugeapoc-s.cns
+st5 = hugeapoc.cns
+st6 = hugeparts.cns
+st7 = hugeapoc-s.cns
+pal1 = Apoc01.act
+pal2 = Apoc02.act
+pal3 = Apoc03.act
+pal4 = Apoc04.act
+pal5 = Apoc05.act
+pal6 = Apoc06.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 
