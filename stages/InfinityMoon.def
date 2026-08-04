@@ -1,0 +1,116 @@
+; Made by Eternaga - marvelousmugen@hotmail.com  
+; http://infinity.4-all.org/
+
+[Info]
+name = "Infinity Moon"
+
+[Camera]
+startx = 0
+starty = 0
+boundleft = -150
+boundright = 453
+boundhigh = -350
+boundlow = 0
+verticalfollow = 1
+floortension = 30
+tension = 60
+
+[PlayerInfo]
+p1startx = -70          
+p1starty = 0            
+p1startz = 0            
+p1facing = 1        
+
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+
+leftbound  = -1000 
+rightbound =  1000 
+topbound  =  0     
+botbound  =  0     
+
+[Scaling] 
+topz     = 0       
+botz     = 50      
+topscale = 1       
+botscale = 1.2     
+
+[Bound]
+screenleft = 15    
+screenright = 15  
+
+[StageInfo]
+zoffset = 225
+autoturn = 1
+resetBG = 1
+
+[shadow]
+yscale = 0
+
+[Reflection]
+intensity = 2
+
+[BGdef]
+spr = infinitymoon.sff
+debugbg = 0
+
+[BG 0]
+type  = normal
+spriteno = 0, 0
+layerno = 0                
+start = 0, 0
+delta = .5,.5
+trans = none
+mask  = 0
+tile  = 0, 0
+tilespacing = 0,0
+window = 0,0, 319, 239
+windowdelta = 0,0
+
+[BG Speed Clouds]
+type  = normal
+spriteno = 1,0
+start = 0, 226
+velocity = -2,0
+delta = .8, .75
+mask = 1
+tile = 1, 0
+trans = add
+
+[BG speed Clouds 2]
+type  = normal
+spriteno = 1,0
+start = 0, 220
+velocity = -5,0
+delta = .8, .75
+mask = 1
+tile = 1, 0
+trans = add
+
+[BG Fog]
+type  = normal
+spriteno = 2,2
+start = 0, 200
+velocity = -5,0
+delta = .8, .75
+mask = 1
+tile = 1, 0
+trans = add
+layerno = 1
+
+[BG Fog 2]
+type  = normal
+spriteno = 2,2
+start = 0, 150
+velocity = -1,0
+delta = .8, .75
+mask = 1
+tile = 1, 0
+trans = add
+layerno = 1
+
+[Music]
+bgmusic = sound/Moon.mp3
+bgvolume = 255
