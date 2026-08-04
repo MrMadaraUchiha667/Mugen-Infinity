@@ -1,0 +1,27 @@
+[Info]
+name 		="The Beast"
+displayname 	="Fera"
+versiondate 	=01/01/2011
+mugenversion 	=1.0
+author 		="Thales M."
+pal.defaults	=1,4,2,3,4,5,6
+
+[Files]
+sprite =Beast.sff
+anim =Beast.air
+sound =Beast.snd
+cmd =Beast.cmd
+cns =Beast.cns
+stcommon =common1.cns
+st =Beast.cns
+pal1=01.act
+pal2=02.act
+pal3=03.act
+pal4=04.act
+pal5=05.act
+pal6=06.act
+
+
+[Arcade]
+intro.storyboard =intro.def
+ending.storyboard=ending.def
