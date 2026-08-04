@@ -1,0 +1,20 @@
+[Info]
+name 		="Black Panther"
+displayname 	="Pantera Negra"
+versiondate 	=28/05/2018
+mugenversion 	=1.0
+author 		="Thales M."
+pal.defaults	=1,2,3,4,5,6,7
+[Files]
+sprite =BlackPanther.sff
+anim =BlackPanther.air
+sound =BlackPanther.snd
+cmd =BlackPanther.cmd
+cns=add004basic.reb1
+st=add004basic.reb1
+stcommon=common1.cns
+pal1=BlackPanther.act
+
+[Arcade]
+intro.storyboard =../AvX/Arcade.def
+ending.storyboard=../data/AvX/Ending01.def
