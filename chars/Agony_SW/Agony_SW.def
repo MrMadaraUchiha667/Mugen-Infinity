@@ -1,0 +1,30 @@
+[Info]
+name = "Agony"
+displayname = "Agonia"
+versiondate = 1.1
+mugenversion = 1.1
+author = "Thales M."
+pal.defaults = 1,3,4,5,6,2
+
+[Files]
+sprite = Sprite.sff
+anim = Anim.air
+sound = Sound.snd
+cmd = Command.cmd
+cns = Constants.cns
+stcommon = common1.cns
+st = States\System.st
+st1 = States\Basic.st
+st2 = States\Specials.st
+st3 = States\Supers.st
+st4 = States\Helpers.st
+pal1 = Palettes\agony.act
+pal2 = Palettes\antivenom.act
+pal3 = Palettes\scream.act
+pal4 = Palettes\lasher.act
+pal5 = Palettes\phage.act
+pal6 = Palettes\carnage.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 
