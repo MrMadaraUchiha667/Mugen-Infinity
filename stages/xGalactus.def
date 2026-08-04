@@ -1,0 +1,167 @@
+[Info]
+name = "unknown space astroid belt"
+
+[Camera]
+startx = 0
+starty = 0
+boundleft = 0
+boundright = 0
+boundhigh = -100
+boundlow = -10
+verticalfollow = 1.5
+floortension = 125
+tension = 125
+zoomin=.8
+zoomout=.5
+
+[PlayerInfo]
+p1startx = -70
+p1starty = 0
+p1startz = 0
+p1facing = 1
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+leftbound  = -1000
+rightbound =  1000
+topbound  =  0
+botbound  =  0
+
+[Scaling]
+topz     = 0
+botz     = 50
+topscale = 1
+botscale = 1.2
+
+[Bound]
+screenleft = 15
+screenright = 15
+
+[StageInfo]
+zoffset = 210
+autoturn = 1
+resetBG = 0
+
+[Shadow]
+yscale = 0.2
+reflect = 0
+
+[Music]
+;bgmusic = 1.da
+bgmusic = sound/surfer.mp3
+bgvolume = 255
+
+[BGdef]
+spr = stages/xgalactus.sff
+debugbg = 0
+
+[BG space]
+type = normal
+spriteno = 0, 0
+start = 0, 0
+delta = .2, .2
+mask = 1
+tile = 1, 1
+sin.y = 3, 200
+
+[BG earth]
+type = normal
+spriteno = 80, 11
+start = 0, 0
+delta = .3, .3
+mask = 1
+sin.y = 6, 200
+
+[BG asteroids1]
+type  = normal
+spriteno = 80,2              
+start = 0, 130
+delta = 0.4,1
+velocity = -.6,0
+trans = none
+mask  = 1
+tile  = 1, 0
+tilespacing = 0,0
+sin.y = 3, 200
+
+[BG asteroids]
+type  = normal
+spriteno = 80, 1               
+start = 0, 200
+delta = 0.5,1
+velocity = -.5,0
+trans = none
+mask  = 1
+tile  = 1, 0
+tilespacing = 0,0
+sin.y = 3, 175
+
+[BG asteroids4]
+type  = normal
+spriteno = 80, 7               
+start = 0, 140
+delta = 0.6,1
+velocity = -.4,0
+trans = none
+mask  = 1
+tile  = 1, 0
+tilespacing = 360,0
+sin.y = 3, 150
+
+[BG asteroids0]
+type  = normal
+spriteno = 80, 8               
+start = 0, 160
+delta = 0.7,1
+velocity = -.3,0
+trans = none
+mask  = 1
+tile  = 1, 0
+tilespacing = 360,0
+sin.y = 3, 125
+
+[BG asteroids2]
+type  = normal
+spriteno = 80, 5               
+start = 0, 20
+delta = 0.8,1
+velocity = -.2,0
+trans = none
+mask  = 1
+tile  = 1, 0
+tilespacing = 410,0
+sin.y = 3, 100
+
+
+[BG asteroids3]
+type  = normal
+spriteno = 80, 4               
+start = 0, 30
+delta = 0.9,1
+velocity = -.1,0
+trans = none
+mask  = 1
+tile  = 1, 0
+tilespacing = 460,0
+sin.y = 3, 75
+
+
+[BG fault]
+type = normal
+spriteno = 80, 0
+start = 0, 155
+delta = 1, 1
+mask = 1
+;velocity = 0.05
+tile = 1, 0
+trans = none
+
+
+
+
+
+
+
+
+

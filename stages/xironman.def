@@ -1,0 +1,129 @@
+[Info]
+name="USA Newyork Stark Ind" 
+autor= JC ; http://eternal.mgbr.net ; 
+
+[Camera]
+startx = 0
+starty = 0
+boundleft = 0
+boundright = 0
+boundhigh = -100
+boundlow = -10
+verticalfollow = 1.5
+floortension = 125
+tension = 125
+zoomin=.8
+zoomout=.5
+
+[PlayerInfo]
+p1startx=-80
+p1starty=0
+p1startz=0
+p1facing=1
+
+p2startx= 80
+p2starty=0
+p2startz=0
+p2facing=-1
+
+leftbound=-1000
+rightbound=1000
+topbound=0
+botbound=0
+
+[Scaling]
+topz=0
+botz=50
+topscale=1
+botscale=1.2
+
+[Bound]
+screenleft=15
+screenright=15
+
+[StageInfo]
+zoffset=213
+autoturn=1
+resetBG = 0
+yscale = .8
+xscale = .8
+
+[Shadow]
+color = 32,32,32
+yscale = .2
+
+[BGdef]
+spr=stages/Xironman.sff
+DEBUGBG=0
+
+[Music]
+bgmusic= sound/Ironman.mp3
+bgvolume= 80
+
+[BG stars]
+type  = normal
+spriteno = 3,1
+start = 0, 50
+delta =.38,.58
+mask = 1
+tile = 1, 1
+tilespacing = 0, 0
+velocity = -.22, 0
+
+
+[BG stars]
+type  = normal
+spriteno = 3,0
+start = 0, 50
+delta =.4,.6
+mask = 1
+tile = 1, 1
+tilespacing = 0, 0
+velocity = -.25, 0
+
+
+[BG wall]
+type  = normal
+spriteno = 1,0
+start = 0, 50
+delta =.6,1
+mask = 1
+tile = 1, 1
+tilespacing = 0, 0
+velocity = -.5, 0
+
+[BG pipes]
+type  = normal
+spriteno = 1,2
+start = 0, 200
+delta =.8,1
+mask = 1
+
+
+[BG floor]
+type  = normal
+spriteno = 0,0
+start = 0, 50
+delta =1,1
+mask = 1
+
+[BG floor]
+type  = anime
+actionno = 1
+start = 0, 50
+delta =1,1
+mask = 1
+[Begin action 1]
+0,0, 0,0, 10
+0,1, 0,0, 10
+0,2, 0,0, 10
+0,3, 0,0, 10
+0,2, 0,0, 10
+0,1, 0,0, 10
+
+[BG hulkbuster]
+type  = normal
+spriteno = 8,1
+start = 0, 50
+delta =1,1
+mask = 1
