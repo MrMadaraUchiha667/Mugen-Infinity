@@ -1,0 +1,30 @@
+[Info]
+name ="Bastion"
+displayname ="Bastion"
+versiondate =1.1
+mugenversion =1.1
+author ="Thales M."
+pal.defaults =1
+
+[Files]
+sprite   =MarvelTemplate.sff
+anim     =MarvelTemplate.air
+sound    =MarvelTemplate.snd
+stcommon =DCvsMarvelcommon1.cns
+cmd      =MarvelTemplate.cmd
+cns      =MarvelTemplate.cns
+st       =basics.st
+pal1=pal2.act
+pal2=pal1.act
+pal3=pal3.act
+pal4=pal4.act
+pal5=pal5.act
+pal6=pal6.act
+st1=specials.st
+st2=hypers.st
+st3=overrides.st
+st4=amalgam.st
+
+[Arcade]
+intro.storyboard=
+ending.storyboard=
