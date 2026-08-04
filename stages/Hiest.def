@@ -1,0 +1,2039 @@
+[Info]
+name="Heist" 
+displayname="Hiest"
+pal.defaults=1
+
+
+[Camera]
+startx=0
+starty=0
+boundleft = -224
+boundright = 224
+boundhigh = -169
+floortension = 65
+verticalfollow = .9
+
+
+[PlayerInfo]
+p1startx=-80
+p1starty=0
+p1startz=0
+p1facing=1
+
+p2startx= 80
+p2starty=0
+p2startz=0
+p2facing=-1
+
+leftbound=-1000
+rightbound=1000
+topbound=0
+botbound=0
+
+[Scaling]
+topz=0
+botz=50
+topscale=1
+botscale=1.2
+
+[Bound]
+screenleft=15
+screenright=15
+
+[StageInfo]
+zoffset=215
+autoturn=1
+resetBG = 0
+
+[Shadow]
+color = 32,32,32
+yscale = .2
+
+[BGdef]
+spr=stages/Hiest.sff
+
+[Music]
+bgmusic = sound/Boss Battle.mp3
+bgvolume = 255
+
+;..............................
+
+[BG A]
+type  = normal
+spriteno = 2,0
+start = 0, 0
+delta = .36,.20
+mask = 1
+ID = 77
+
+[BG B]
+type  = normal
+spriteno = 2,0
+tile= 1,0
+tilespacing= -64
+delta = .36,.20
+mask = 1
+ID=77
+
+[BG C]
+type  = normal
+spriteno = 2,0
+start = 0, 0
+delta = .36,.80
+mask = 1
+ID=7
+
+[BG D]
+type  = normal
+spriteno = 2,0
+tile= 1,0
+tilespacing= -64
+delta = .36,.80
+mask = 1
+ID=7
+
+
+
+[BG J]
+type  = normal
+spriteno = 2,4
+start = 0, 32
+delta = .68,1
+tile = 1,0
+tilespacing = 1984
+mask = 1
+ID = 19
+
+
+[BG K]
+type  = normal
+spriteno = 2,3
+start = 0, 32
+tile = 1,0
+tilespacing = 2700
+delta = .68,1
+mask = 1
+ID = 19
+
+
+[BG M]
+type  = normal
+spriteno = 0, 12
+delta = 1,1
+tile = 0,1
+tilespacing = 0,48
+mask = 1
+ID = 9
+
+[BG ZD]
+type  = normal
+spriteno = 3,0
+delta = 1,1
+mask = 1
+ID = 80
+
+[BG ZE]
+type  = normal
+spriteno = 0, 10
+delta = 1,1
+mask = 1
+ID =6
+
+
+
+[BG billboard]
+type = anim
+actionno = 68
+start = 145,-66
+mask = 1
+id = 6
+
+[BG billboard south pacific]
+type = anim
+actionno = 71
+start = 85,-51
+mask = 1
+id = 6
+
+
+[BG billboard lights]
+type = anim
+actionno = 69
+start = 149,-27
+mask = 1
+id = 6
+
+
+[BG billboard flag]
+type = anim
+actionno = 70
+start = 148,10
+mask = 1
+id = 6
+
+
+[BG billboard flag 2]
+type = anim
+actionno = 70
+start = 228,-10
+mask = 1
+id = 6
+
+
+
+[BG Car]
+type = anim
+actionno = 66
+start = -260,80
+mask = 1
+id = 6
+
+
+[BG criminal]
+type = anim
+actionno = 77
+start = 140,78
+mask = 1
+id = 6
+
+
+
+[BG smoke]
+type = anim
+actionno = 67
+start = -330,40
+mask = 1
+id = 6
+
+
+
+[BG fire]
+type = anim
+actionno = 65
+start = -220,110
+mask = 1
+id = 6
+
+
+[BG fire 2]
+type = anim
+actionno = 65
+start = -210,120
+mask = 1
+id = 6
+
+
+[BG fire 3]
+type = anim
+actionno = 65
+start = -160,105
+mask = 1
+id = 6
+
+
+[BG bank lock]
+type = anim
+actionno = 74
+start = -120,85
+mask = 1
+id = 6
+
+
+[BG bank lock 2]
+type = anim
+actionno = 75
+start = 60,80
+mask = 1
+id = 6
+
+
+[BG mail]
+type = anim
+actionno = 64
+start = -170,130
+mask = 1
+id = 6
+
+
+
+[BG american flag]
+type = anim
+actionno = 63
+start = -255,-60
+mask = 1
+id = 6
+
+
+
+[BG sign]
+type = anim
+actionno = 58
+start = -230,50
+mask = 1
+id = 6
+
+
+
+[BG big smoke]
+type = anim
+actionno = 56
+start = 250,80
+mask = 1
+id = 6
+
+
+
+[BG women]
+type = anim
+actionno = 62
+start = 190,73
+mask = 1
+id = 6
+
+
+[BG cop]
+type = anim
+actionno = 51
+start = 130,80
+mask = 1
+id = 6
+
+[BG hostage]
+type = anim
+actionno = 61
+start = 155,100
+mask = 1
+id = 6
+
+
+[BG smoke]
+type = anim
+actionno = 59
+start = -20,20
+mask = 1
+id = 6
+
+
+[BG fire]
+type = anim
+actionno = 60
+start = -30,60
+mask = 1
+id = 6
+
+[BG fire 2]
+type = anim
+actionno = 60
+start = -50,70
+mask = 1
+id = 6
+
+
+[BG taxi]
+type = anim
+actionno = 48
+start = -60,100
+mask = 1
+id = 6
+
+[BG cop 2]
+type = anim
+actionno = 49
+start = -90,130
+mask = 1
+id = 6
+
+[BG lady]
+type = anim
+actionno = 52
+start = -130,130
+mask = 1
+id = 6
+
+[BG stop lights]
+type = anim
+actionno = 57
+start = 170,30
+mask = 1
+id = 6
+
+
+[BG criminal ]
+type = anim
+actionno = 53
+start = 120,135
+mask = 1
+id = 6
+
+
+[BG shotgun ]
+type = anim
+actionno = 72
+start = 130,175
+mask = 1
+id = 6
+
+
+[BG money ]
+type = anim
+actionno = 54
+start = 40,130
+mask = 1
+id = 6
+
+[BG tire ]
+type = anim
+actionno = 73
+start = -80,175
+mask = 1
+id = 6
+
+[BG bomb]
+type = anim
+actionno = 78
+start = -40,135
+mask = 1
+id = 6
+
+[BG bomb 2]
+type = anim
+actionno = 79
+start = 220,115
+mask = 1
+id = 6
+
+
+
+[BG criminal 2]
+type = anim
+actionno = 76
+start = -40,135
+mask = 1
+id = 6
+
+
+[BG car ]
+type = anim
+actionno = 55
+start = 230,120
+mask = 1
+id = 6
+
+[BG homeless]
+type = anim
+actionno = 50
+start = -240,140
+mask = 1
+id = 6
+
+
+
+[BG ZF]
+type  = normal
+spriteno = 0, 1
+delta = 1,1
+mask = 1
+ID =2
+
+
+[BG ZG]
+type  = normal
+spriteno = 0, 2
+delta = 1,1
+mask = 1
+ID =3
+
+
+[BG ZH]
+type  = normal
+spriteno = 0, 3
+delta = 1,1
+mask = 1
+ID =4
+
+
+
+[BG ZI]
+type  = normal
+spriteno = 0, 4
+delta = 1,1
+mask = 1
+ID =5
+
+
+
+[BG ZJ]
+type  = anim
+actionno= 1
+delta = 1,1
+mask = 1
+ID =8
+
+
+
+
+
+
+
+
+
+
+[BG billboard]
+type = anim
+actionno = 68
+start = 145,-66
+mask = 1
+id = 8
+
+[BG billboard south pacific]
+type = anim
+actionno = 71
+start = 85,-51
+mask = 1
+id =8
+
+
+[BG billboard lights]
+type = anim
+actionno = 69
+start = 149,-27
+mask = 1
+id = 8
+
+
+[BG billboard flag]
+type = anim
+actionno = 70
+start = 148,10
+mask = 1
+id = 8
+
+
+[BG billboard flag 2]
+type = anim
+actionno = 70
+start = 228,-10
+mask = 1
+id = 8
+
+
+
+[BG Car]
+type = anim
+actionno = 66
+start = -260,80
+mask = 1
+id = 8
+
+
+[BG criminal]
+type = anim
+actionno = 77
+start = 140,78
+mask = 1
+id = 8
+
+
+[BG smoke]
+type = anim
+actionno = 67
+start = -330,40
+mask = 1
+id = 8
+
+
+
+[BG fire]
+type = anim
+actionno = 65
+start = -220,110
+mask = 1
+id = 8
+
+
+[BG fire 2]
+type = anim
+actionno = 65
+start = -210,120
+mask = 1
+id = 8
+
+
+[BG fire 3]
+type = anim
+actionno = 65
+start = -160,105
+mask = 1
+id = 8
+
+
+[BG bank lock]
+type = anim
+actionno = 74
+start = -120,85
+mask = 1
+id = 8
+
+
+[BG bank lock 2]
+type = anim
+actionno = 75
+start = 60,80
+mask = 1
+id = 8
+
+
+[BG mail]
+type = anim
+actionno = 64
+start = -170,130
+mask = 1
+id = 8
+
+
+
+[BG american flag]
+type = anim
+actionno = 63
+start = -255,-60
+mask = 1
+id = 8
+
+
+
+[BG sign]
+type = anim
+actionno = 58
+start = -230,50
+mask = 1
+id = 8
+
+
+
+[BG big smoke]
+type = anim
+actionno = 56
+start = 250,80
+mask = 1
+id = 8
+
+
+
+[BG women]
+type = anim
+actionno = 62
+start = 190,73
+mask = 1
+id = 8
+
+
+[BG cop]
+type = anim
+actionno = 51
+start = 130,80
+mask = 1
+id = 8
+
+[BG hostage]
+type = anim
+actionno = 61
+start = 155,100
+mask = 1
+id = 8
+
+
+[BG smoke]
+type = anim
+actionno = 59
+start = -20,20
+mask = 1
+id = 8
+
+
+[BG fire]
+type = anim
+actionno = 60
+start = -30,60
+mask = 1
+id = 8
+
+[BG fire 2]
+type = anim
+actionno = 60
+start = -50,70
+mask = 1
+id = 8
+
+
+[BG taxi]
+type = anim
+actionno = 48
+start = -60,100
+mask = 1
+id = 8
+
+[BG cop 2]
+type = anim
+actionno = 49
+start = -90,130
+mask = 1
+id = 8
+
+[BG lady]
+type = anim
+actionno = 52
+start = -130,130
+mask = 1
+id = 8
+
+[BG stop lights]
+type = anim
+actionno = 57
+start = 170,30
+mask = 1
+id = 8
+
+
+[BG criminal ]
+type = anim
+actionno = 53
+start = 120,135
+mask = 1
+id = 8
+
+
+[BG shotgun ]
+type = anim
+actionno = 72
+start = 130,175
+mask = 1
+id = 8
+
+
+[BG money ]
+type = anim
+actionno = 54
+start = 40,130
+mask = 1
+id = 8
+
+[BG tire ]
+type = anim
+actionno = 73
+start = -80,175
+mask = 1
+id = 8
+
+[BG bomb]
+type = anim
+actionno = 78
+start = -40,135
+mask = 1
+id = 8
+
+[BG bomb 2]
+type = anim
+actionno = 79
+start = 220,115
+mask = 1
+id = 8
+
+
+[BG criminal 2]
+type = anim
+actionno = 76
+start = -40,135
+mask = 1
+id = 8
+
+
+[BG car ]
+type = anim
+actionno = 55
+start = 230,120
+mask = 1
+id = 8
+
+[BG homeless]
+type = anim
+actionno = 50
+start = -240,140
+mask = 1
+id = 8
+
+
+
+
+
+
+
+
+[BG ZY]
+type  = normal
+spriteno = 47,0
+delta = .68,1
+start = 8730,86
+mask = 1
+ID = 505
+
+[BG ZR]
+type  = normal
+spriteno = 46,0
+delta = .68,1
+start = 6050,100
+mask = 1
+ID = 515
+
+[BG ZP]
+type  = normal
+spriteno = 45,0
+delta = .68,1
+start = 3030,120
+mask = 1
+ID = 505
+
+[BG ZQ]
+type  = normal
+spriteno = 44,0
+delta = .68,1
+start = 410,150
+mask = 1
+ID = 515
+
+
+[BG ZY]
+type  = normal
+spriteno = 47,0
+delta = .68,1
+start = 21930,86
+mask = 1
+ID = 515
+
+[BG ZR]
+type  = normal
+spriteno = 46,0
+delta = .68,1
+start = 18050,100
+mask = 1
+ID = 505
+
+[BG ZP]
+type  = normal
+spriteno = 45,0
+delta = .68,1
+start = 11030,120
+mask = 1
+ID = 515
+
+[BG ZQ]
+type  = normal
+spriteno = 44,0
+delta = .68,1
+start = 15500,150
+mask = 1
+ID = 505
+
+
+
+[BG ZZZA]
+type  = normal
+spriteno = 1,0
+delta = 1,1
+mask = 1
+ID = 6
+
+
+
+
+
+[BG ZZZB]
+type  = normal
+spriteno = 1,1
+delta = 1,1
+mask = 1
+ID= 6
+
+
+[BG ZZZC]
+type  = parallax
+spriteno = 2,1
+delta = .6714285,1
+xscale= 1,1.7560871
+mask = 1
+ID = 70
+
+
+
+[BG ZZZF]
+type  = anim
+actionno = 6
+delta = 1,1
+start = 0,238
+mask = 1
+id = 500
+
+
+
+; ............1st
+
+[BGCtrlDef 2] 
+CtrlID = 2
+looptime = -1
+
+[BGCtrl 1.1] 
+type = Enable
+time = 0
+value = 0
+
+[BGCtrl 1.3] 
+type = Enable
+time = 1600
+value = 1
+
+[BGCtrl 1.3] 
+type = Enable
+time = 1608
+value = 0
+
+;............2nd
+
+[BGCtrlDef 3] 
+CtrlID = 3
+looptime = -1
+
+[BGCtrl 1.1] 
+type = Enable
+time = 0
+value = 0
+
+[BGCtrl 1.3] 
+type = Enable
+time = 1608
+value = 1
+
+[BGCtrl 1.3] 
+type = Enable
+time = 2208
+value = 0
+
+;......... 3rd
+
+[BGCtrlDef 4] 
+CtrlID = 4
+looptime = -1
+
+[BGCtrl 1.1] 
+type = Enable
+time = 0
+value = 0
+
+[BGCtrl 1.3] 
+type = Enable
+time = 2208
+value = 1
+
+[BGCtrl 1.3] 
+type = Enable
+time = 2216
+value = 0
+
+;............ 4th
+
+[BGCtrlDef] 
+CtrlID = 5
+looptime = -1
+
+[BGCtrl 1.1] 
+type = Enable
+time = 0
+value = 0
+
+[BGCtrl 1.3] 
+type = Enable
+time = 2216
+value = 1
+
+
+[BGCtrl 1.3] 
+type = Enable
+time = 2805
+value = 0
+
+
+[BGCtrlDef] 
+CtrlID = 6
+looptime = -1
+
+
+[BGCtrl 40]
+type = Enable
+time = 0
+value = 1
+
+[BGCtrl 40]
+type = Enable
+time = 2805
+value = 0
+
+
+
+;.......... The Drop
+
+[BGCtrlDef 6] 
+CtrlID = 8
+
+[BGCtrl 1.1] 
+type = Enable
+time = 0
+value = 0
+
+[BGCtrl 1.3] 
+type = Enable
+time = 2805
+value = 1
+
+[BGCtrl 40]
+type = VelSet
+time = 2805
+y= -6
+
+[BGCtrl 40]
+type = VelSet
+time = 2927
+y = 0
+
+[BGCtrlDef 6] 
+CtrlID = 80
+
+[BGCtrl 1.1] 
+type = Enable
+time = 0
+value = 1
+
+[BGCtrl 40]
+type = VelSet
+time = 2805
+y= -6
+
+[BGCtrl 40]
+type = Enable
+time = 3000
+value = 0
+
+;............. Tunnel Shaft
+
+[BGCtrlDef] 
+CtrlID = 9
+
+[BGCtrl 1.1] 
+type = Enable
+time = 0
+value = 0
+
+[BGCtrl 1.3] 
+type = Enable
+time = 2805
+value = 1
+
+[BGCtrl 1.3] 
+type = Visible
+time = 2805
+value = 0
+
+[BGCtrl 40]
+type = VelSet
+time = 2805
+y = -6
+
+[BGCtrl 1.3] 
+type = Visible
+time = 2840
+value = 1
+
+
+[BGCtrl 40]
+type = VelSet
+time = 2927
+y = 0
+
+[BGCtrl 7-6]
+type = SinY
+time = 2928
+value = 2,8
+
+
+[BGCtrl 7-6]
+type = SinY
+time = 2932
+value = 1,8
+
+
+[BGCtrl 7-6]
+type = SinY
+time = 2936
+value = 0,8
+
+[BGCtrl 7-6]
+type = SinY
+time = 2940
+value = 0,0
+
+
+[BGCtrl 40]
+type = VelSet
+time = 2940
+x = -3.5
+
+
+;........... Train
+
+[BGCtrlDef ] 
+CtrlID = 7
+looptime = -1
+
+[BGCtrl 40]
+type = Visible
+time = 0
+value= 0
+
+[BGCtrl 40]
+type = VelSet
+time = 2805
+y = -1.7
+
+[BGCtrl 40]
+type = VelSet
+time = 2927
+y = 0
+
+
+[BGCtrl 40]
+type = Visible
+time = 2927
+value= 1
+
+
+[BGCtrl 7-6]
+type = SinY
+time = 2928
+value = 2,8
+
+
+[BGCtrl 7-6]
+type = SinY
+time = 2932
+value = 1,8
+
+
+[BGCtrl 7-6]
+type = SinY
+time = 2936
+value = 0,8
+
+[BGCtrl 7-6]
+type = SinY
+time = 2940
+value = 0,0
+
+[BGCtrl 7-6]
+type = SinY
+time = 2940
+value = 4,200
+
+[BGCtrl 40]
+type = VelSet
+time = 2940
+x = -.3
+
+
+
+[BGCtrlDef ] 
+CtrlID = 70
+looptime = -1
+
+[BGCtrl 40]
+type = VelSet
+time = 2805
+y = -1.7
+
+[BGCtrl 40]
+type = VelSet
+time = 2927
+y = 0
+
+
+[BGCtrl 7-6]
+type = SinY
+time = 2928
+value = 2,8
+
+
+[BGCtrl 7-6]
+type = SinY
+time = 2932
+value = 1,8
+
+
+[BGCtrl 7-6]
+type = SinY
+time = 2936
+value = 0,8
+
+[BGCtrl 7-6]
+type = SinY
+time = 2940
+value = 0,0
+
+;............. Movement
+
+
+[BGCtrlDef ] 
+CtrlID = 17
+
+[BGCtrl 40]
+type = VelSet
+time = 2805
+y = -1.7
+
+[BGCtrl 40]
+type = VelSet
+time = 2927
+y = 0
+
+[BGCtrl GH]
+type = Enable
+time = 2916
+value= 0
+
+
+
+[BGCtrlDef ] 
+CtrlID = 70
+
+[BGCtrl 40]
+type = Enable
+time = 0
+value = 0
+
+[BGCtrl 40]
+type = Enable
+time = 2805
+value = 1
+
+[BGCtrl 40]
+type = VelSet
+time = 2805
+y = -1.7
+
+[BGCtrl 40]
+type = VelSet
+time = 2927
+y = 0
+
+[BGCtrl 7-6]
+type = SinY
+time = 2928
+value = 2,8
+
+
+[BGCtrl 7-6]
+type = SinY
+time = 2932
+value = 1,8
+
+
+[BGCtrl 7-6]
+type = SinY
+time = 2936
+value = 0,8
+
+[BGCtrl 7-6]
+type = SinY
+time = 2940
+value = 0,0
+
+
+
+[BGCtrlDef ] 
+CtrlID = 30
+
+[BGCtrl GH]
+type = Enable
+time = 0
+value= 0
+
+[BGCtrl GH]
+type = Enable
+time = 2927
+value= 1
+
+[BGCtrl GH]
+type = Enable
+time = 3016
+value= 0
+
+[BGCtrlDef ] 
+CtrlID = 19
+looptime = -1
+
+[BGCtrl 40]
+type = VelSet
+time = 2805
+y = -1.7
+
+[BGCtrl 40]
+type = VelSet
+time = 2927
+y = 0
+x = -3.5
+
+[BGCtrl 7-6]
+type = SinY
+time = 2940
+value =4,200
+
+[BGCtrl 7-6]
+type = SinY
+time = 2928
+value = 2,8
+
+
+[BGCtrl 7-6]
+type = SinY
+time = 2932
+value = 1,8
+
+
+[BGCtrl 7-6]
+type = SinY
+time = 2936
+value = 0,8
+
+[BGCtrl 7-6]
+type = SinY
+time = 2940
+value = 0,0
+
+[BGCtrl 7-6]
+type = SinY
+time = 2940
+value =4,200
+
+
+
+;............. SWitch 
+[BGCtrlDef ] 
+CtrlID = 77
+looptime = -1
+
+[BGCtrl 40]
+type = VelSet
+time = 2805
+y = -1.7
+
+[BGCtrl 40]
+type = VelSet
+time = 2927
+y = 0
+
+[BGCtrl 40]
+type = Enable
+time = 2927
+value = 0
+
+;............. Debris
+
+[BgctrlDef 22]
+CtrlID=500
+
+[bgctrl 500]
+type=Enable
+time=0
+value = 0
+
+
+[bgctrl 500]
+type=Enable
+time=2805
+value = 1
+
+
+[Bgctrl 500]
+type=VelSet
+time=2805
+x=-2
+y = -4
+
+[Bgctrl 500]
+type=VelSet
+time=2815
+x=-2
+y=0
+
+[Bgctrl 500]
+type=VelSet
+time=2825
+x=-2
+y=2
+
+[Bgctrl 500]
+type=VelSet
+time=2835
+x=-2
+y=4
+
+[Bgctrl 500]
+type=VelSet
+time=2900
+x=0
+y=0
+
+[bgctrl 500]
+type=Enable
+time=2900
+value = 0
+
+
+[BgctrlDef 22]
+CtrlID=501
+
+
+[Bgctrl 500]
+type= Visible
+time=0
+value = 0
+
+[Bgctrl 500]
+type= Visible
+time=100
+value = 1
+
+[Bgctrl 500]
+type= Posadd
+time=0,32,57
+x = 0
+
+[Bgctrl 500]
+type= Posadd
+time=32,40,57
+x = 6
+
+[Bgctrl 500]
+type= Posadd
+time=40,48,57
+x = 6
+
+
+[Bgctrl 500]
+type= Posadd
+time=48,56,67
+x = 6
+
+
+[BgctrlDef 22]
+CtrlID=502
+
+[BGCtrl GH]
+type = Enable
+time = 0
+value= 1
+
+
+[BGCtrl 40]
+type = VelSet
+time = 2805
+y = -1.7
+
+[BGCtrl 7-6]
+type = SinY
+time = 2940
+value = 4,200
+
+[BGCtrl 40]
+type = VelSet
+time = 2927
+y = 0
+x = -.5
+
+[BGCtrl GH]
+type = Visible
+time = 2990
+value= 0
+
+[BGCtrl 1.3] 
+type = Visible
+time = 3250
+value = 1
+
+[BgctrlDef 22]
+CtrlID=512
+
+[BGCtrl GH]
+type = Enable
+time = 0
+value= 1
+
+
+[BGCtrl 40]
+type = VelSet
+time = 2805
+y = -1.7
+
+[BGCtrl 40]
+type = VelSet
+time = 2927
+y = 0
+x = -.5
+
+[BGCtrl GH]
+type = Enable
+time = 2990
+value= 0
+
+[BGCtrl 1.3] 
+type = Enable
+time = 6100
+value = 1
+
+
+
+
+[BgctrlDef 22]
+CtrlID=522
+
+[BGCtrl GH]
+type = Enable
+time = 0
+value= 1
+
+
+[BGCtrl 40]
+type = VelSet
+time = 2805
+y = -1.7
+
+[BGCtrl 40]
+type = VelSet
+time = 2927
+y = 0
+x = -.5
+
+[BGCtrl GH]
+type = Enable
+time = 2990
+value= 0
+
+[BGCtrl 1.3] 
+type = Enable
+time = 7820
+value = 1
+
+[BGCtrl 7-6]
+type = SinY
+time = 2940
+value = 4,200
+
+
+[BgctrlDef 22]
+CtrlID=503
+
+[BGCtrl 1.1] 
+type = Velset
+time = 0
+x = 0
+
+[BGCtrl 1.3] 
+type = Velset
+time = 3800
+x = -.65
+
+
+[BGCtrl 7-6]
+type = SinY
+time = 2940
+value = 4,200
+
+[BgctrlDef 22]
+CtrlID=504
+
+[BGCtrl 40]
+type = Visible
+time = 0
+value = 0
+
+[BGCtrl 40]
+type = VelSet
+time = 2805
+y = -1.7
+
+
+[BGCtrl 7-6]
+type = SinY
+time = 2940
+value = 4,200
+
+[BGCtrl 40]
+type = VelSet
+time = 2927
+y = 0
+x = -.5
+
+[BGCtrl 40]
+type = Visible
+time = 4140
+value = 1
+
+[BGCtrl 40]
+type = VelSet
+time = 3700
+x = .05
+
+[BGCtrl 40]
+type = Velset
+time = 4140
+x = .1
+
+
+[BgctrlDef 22]
+CtrlID=505
+
+[BGCtrl 1.1] 
+type = Velset
+time = 0
+x = 0
+
+[BGCtrl 1.3] 
+type = Velset
+time = 5800
+x= -7.70
+
+
+[BGCtrl 7-6]
+type = SinY
+time = 2940
+value =4,200
+
+
+
+[BgctrlDef 22]
+CtrlID=525
+
+[BGCtrl 1.1] 
+type = Velset
+time = 0
+x = 0
+
+[BGCtrl 1.3] 
+type = Velset
+time = 5600
+x= .02
+
+
+[BGCtrl 7-6]
+type = SinY
+time = 2940
+value =4,200
+
+
+[BgctrlDef 22]
+CtrlID=515
+
+[BGCtrl 1.1] 
+type = Velset
+time = 0
+x = 0
+
+[BGCtrl 1.3] 
+type = Velset
+time = 5800
+x= -5.80
+
+
+[BGCtrl 7-6]
+type = SinY
+time = 2940
+value =4,200
+
+[BGCtrlDef ] 
+CtrlID = 39
+looptime = -1
+
+[BGCtrl 40]
+type = VelSet
+time = 2805
+y = -1.7
+
+[BGCtrl 40]
+type = VelSet
+time = 2927
+y = 0
+x = -.5
+
+[BGCtrl 40]
+type = Enable
+time = 0
+value = 1
+
+[BGCtrl 40]
+type = Enable
+time = 3000
+value = 0
+
+
+[BGCtrl 40]
+type = Enable
+time = 5300
+value = 1
+
+[BGCtrl 40]
+type = Enable
+time = 5400
+value = 0
+
+
+[BGCtrl 40]
+type = Enable
+time = 4200
+value = 1
+
+
+
+[BGCtrlDef ] 
+CtrlID = 69
+looptime = -1
+
+[BGCtrl 40]
+type = VelSet
+time = 2805
+y = -1.7
+
+[BGCtrl 40]
+type = VelSet
+time = 2927
+y = 0
+x = -.5
+
+
+[BGCtrl 40]
+type = Enable
+time = 4960
+value = 0
+
+
+[BGCtrl 40]
+type = SinY
+time = 2940
+value = 4,200
+
+
+[BGCtrlDef ] 
+CtrlID = 71
+looptime = -1
+
+[BGCtrl 40]
+type = VelSet
+time = 2805
+y = -1.7
+
+[BGCtrl 40]
+type = VelSet
+time = 2927
+y = 0
+x = -.5
+
+
+[BGCtrl 40]
+type = Visible
+time = 0
+value = 0
+
+[BGCtrl 40]
+type = Visible
+time = 5060
+value = 1
+
+[BGCtrl 40]
+type = SinY
+time = 2940
+value = 4,200
+
+
+[Begin Action 1]
+0,13,0,0,4
+0,11,0,0,-1
+
+
+[Begin Action 6]
+4,0,0,0,2
+4,1,0,0,2
+4,2,0,0,2
+4,3,0,0,2
+4,4,0,0,2
+4,5,0,0,2
+4,6,0,0,2
+4,7,0,0,2
+4,8,0,0,2
+4,9,0,0,2
+4,10,0,0,2
+4,11,0,0,2
+4,12,0,0,2
+4,13,0,0,2
+4,14,0,0,2
+4,15,0,0,2
+4,16,0,0,2
+4,17,0,0,2
+4,18,0,0,2
+4,19,0,0,2
+4,20,0,0,2
+4,21,0,0,2
+4,22,0,0,2
+4,23,0,0,2
+4,24,0,0,2
+4,25,0,0,2
+4,26,0,0,2
+4,27,0,0,2
+-1,0,0,0,-1
+
+
+
+[Begin action 48]
+
+48,0, 0,0, 10
+48,1, 0,0, 10
+48,2, 0,0, 10
+48,3, 0,0, 10
+
+
+[Begin action 49]
+
+49,0, 0,0, 20
+49,1, 0,0, 20
+49,2, 0,0, 20
+49,1, 0,0, 20
+
+
+
+[Begin action 50]
+
+50,0, 0,0, 20
+50,1, 0,0, 20
+50,2, 0,0, 20
+50,1, 0,0, 20
+
+
+[Begin action 51]
+
+51,0, 0,0, 20
+51,1, 0,0, 20
+51,2, 0,0, 20
+
+
+
+[Begin action 52]
+
+52,0, 0,0, 20
+
+
+[Begin action 53]
+
+53,0, 0,0, 70
+53,1, 0,0, 50
+
+
+[Begin action 54]
+
+54,0, 0,0, 100
+54,1, 0,0, 1
+54,2, 0,0, 1
+54,3, 0,0, 2
+
+[Begin action 55]
+
+55,0, 0,0, 10
+
+
+[Begin action 56]
+
+56,2, 0,0, 10
+56,1, 0,0, 10
+56,0, 0,0, 10
+
+
+
+[Begin action 57]
+
+57,0, 0,0, 50
+57,1, 0,0, 50
+57,2, 0,0, 50
+57,3, 0,0, 50
+
+
+[Begin action 58]
+
+58,0, 0,0, 50
+
+
+[Begin action 59]
+
+59,0, 0,0, 10
+59,1, 0,0, 10
+59,2, 0,0, 10
+
+
+[Begin action 60]
+
+60,0, 0,0, 6
+60,1, 0,0, 6
+60,2, 0,0, 6
+60,3, 0,0, 6
+60,4, 0,0, 6
+60,5, 0,0, 6
+60,6, 0,0, 6
+
+
+[Begin action 61]
+
+61,0, 0,0, 70
+61,1, 0,0, 30
+
+[Begin action 62]
+
+62,0, 0,0, 30
+62,1, 0,0, 30
+
+
+[Begin action 63]
+
+63,0, 0,0, 30
+
+
+[Begin action 64]
+
+64,0, 0,0, 30
+
+
+[Begin action 65]
+
+65,0, 0,0, 8
+65,1, 0,0, 8
+65,2, 0,0, 8
+65,3, 0,0, 8
+
+
+[Begin action 66]
+
+66,0, 0,0, 8
+
+
+[Begin action 67]
+
+67,0, 0,0, 8
+67,1, 0,0, 8
+67,2, 0,0, 8
+
+
+[Begin action 68]
+
+68,0, 0,0, 20 
+68,1, 0,0, 20
+68,2, 0,0, 20
+68,3, 0,0, 20
+68,4, 0,0, 20
+
+
+[Begin action 69]
+
+69,0, 0,0, 10 
+69,1, 0,0, 10 
+
+
+
+[Begin action 70]
+
+70,0, 0,0, 10 
+
+
+
+[Begin action 71]
+
+71,0, 0,0, 5 
+71,1, 0,0, 5 
+71,2, 0,0, 5 
+71,1, 0,0, 5
+
+
+[Begin action 72]
+
+72,0, 0,0, 10 
+
+
+[Begin action 73]
+
+73,0, 0,0, 10 
+
+
+[Begin action 74]
+
+74,0, 0,0, 5 
+74,1, 0,0, 5 
+
+
+
+[Begin action 75]
+
+75,0, 0,0, 5 
+75,1, 0,0, 5 
+
+
+
+[Begin action 76]
+
+76,0, 0,0, 70 
+76,1, 0,0, 40 
+
+
+[Begin action 77]
+
+77,0, 0,0, 50 
+77,1, 0,0, 30 
+
+
+[Begin action 78]
+
+78,0, 0,0, 5 
+78,1, 0,0, 5 
+78,0, 0,0, 5 
+78,1, 0,0, 5 
+78,0, 0,0, 5 
+78,1, 0,0, 5 
+78,0, 0,0, 5 
+78,1, 0,0, 5 
+78,0, 0,0, 5 
+78,1, 0,0, 5 
+78,0, 0,0, 5 
+78,1, 0,0, 5 
+78,2, 0,0, 1 
+78,3, 0,0, 1 
+
+
+[Begin action 79]
+
+79,0, 0,0, 5 
+79,1, 0,0, 5 
+79,0, 0,0, 5 
+
+
+
+
+79,1, 0,0, 5 
+79,0, 0,0, 5 
+79,1, 0,0, 5 
+79,0, 0,0, 5 
+79,1, 0,0, 5 
+79,0, 0,0, 5 
+79,1, 0,0, 5 
+79,0, 0,0, 5 
+79,1, 0,0, 5 
+79,2, 0,0, 1 
+79,3, 0,0, 1 
+
