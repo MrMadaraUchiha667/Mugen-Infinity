@@ -1,0 +1,144 @@
+;--------------------- Variable List ----------------------
+
+; Var(0) - StateDef 3008, 3600, 3708, 1700
+; Var(1) - StateDef 3008, 3708, 1700, 190, 191, 196, 197, 198, 192, 193, 180
+; Var(7) - StateDef 3602, 9000
+; Var(8) - StateDef 3602
+; Var(12) - StateDef 9000
+; Var(13) - StateDef 9000
+; Var(16) - StateDef 9000
+; Var(18) - StateDef -2
+; Var(23) - StateDef 195, 10195
+; Var(25) - StateDef 3600
+; Var(26) - StateDef 1603, 71603, 3600, 3604
+; Var(28) - StateDef 3600, 195, 10195
+; Var(29) - StateDef 3600
+; Var(59) - Statedef -1
+;--------------------- Float Variable List ----------------------
+
+; fVar(5) - StateDef -3
+;-------------------------------------------------------------------------------
+;-------------------------------------------------------------------------------
+;-------------------------------------------------------------------------------
+[Data]
+life = 1200
+attack = 120
+defence = 110
+fall.defence_up = 50
+liedown.time = 50
+airjuggle = 15
+sparkno = 2
+guard.sparkno = S8001
+KO.echo = 0
+volume = 555
+IntPersistIndex = 60
+FloatPersistIndex = 40
+
+[Size]
+xscale = 1
+yscale = 1
+ground.back = 20
+ground.front = 20
+air.back = 18
+air.front = 22
+height = 60
+attack.dist = 160
+attack.width = 4,4
+proj.dist = 90
+proj.attack.dist = 90
+proj.doscale = 0
+head.pos = 1, -83
+mid.pos = 1, -53
+shadowoffset = 0
+draw.offset = 0,0
+
+[Velocity]
+walk.fwd  = 3.9      ;Walk forward
+walk.back = -2.5      ;Walk backward
+run.fwd  = 7.75, 0      ;Run forward (x, y)
+run.back = -4.5,-3.8   ;Hop backward (x, y)
+jump.neu = 0,-8.5      ;Neutral jumping velocity (x, y)
+jump.back = -4,-8.25      ;Jump back Speed (x, y)
+jump.fwd = 4,-8.25   ;Jump forward Speed (x, y)
+runjump.back = -2.55,-8.2;Running jump speeds (opt)
+runjump.fwd = 4,-8.2   ;.
+airjump.neu = 0,-8.2   ;.
+airjump.back = -2.55   ;Air jump speeds (opt)
+airjump.fwd = 2.65
+
+;[Size]
+;xscale = 1;.1
+;yscale = 1;.1
+;ground.back = 20
+;ground.front = 20
+;air.back = 18
+;air.front = 22
+;height = 60
+;attack.dist = 160
+;attack.width = 4,4
+;proj.dist = 90
+;proj.attack.dist = 90
+;proj.doscale = 0
+;head.pos = 1, -83
+;mid.pos = 1, -53
+;shadowoffset = 0
+;draw.offset = 0,0
+
+;[Velocity]
+;walk.fwd = 3.6
+;walk.back = -2.7
+;run.fwd = 6
+;run.back = -8,-3
+;jump.neu = 0,-9.0
+;jump.back = -3.7
+;jump.fwd = 3.2
+;runjump.fwd = 4.4
+;runjump.back = -4.4
+;airjump.neu = 0, -8.9
+;airjump.fwd = 2.5
+;airjump.back = -2.55
+
+[Movement]
+airjump.num = 0
+airjump.height = 65
+yaccel = .31
+stand.friction = .80
+crouch.friction = .80
+air.friction = .20
+
+
+ 
+[Quotes]
+victory1 = "Always, everywhere the X-Men go, the same maddening distrust of mutants!"
+victory2 = "This world has been distorted, Its the natural course that has been interfered with. I must rectify that"
+victory3 = "Not bad. You'll pardon me if I don't let you get all touchy-feely with me. I've seen what you can do"
+victory4 = "Not now. I got a thing to kill."
+victory5 = "Destroy yourselves or destroy each other. I can always just watch it from above"
+victory6 = "Maybe your back's broad enough to take it... but mine is covered with feathers...and they've just been ruffled!"
+victory7 = "You're reveling in it..While the world is filled with you monsters, who want nothing more than simple destruction!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

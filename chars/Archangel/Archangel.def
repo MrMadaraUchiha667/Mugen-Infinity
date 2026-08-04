@@ -1,0 +1,38 @@
+[Info]
+name ="Archangel"
+displayname ="Arcanjo"
+versiondate =1.1
+mugenversion =1.1
+author ="Thales M."
+pal.defaults =1,2,3,4,5,6,7,8,9,10,11,12
+
+[Files]
+sprite =Archangel.sff
+anim =Archangel.air
+sound =Archangel.snd
+cmd =Archangel.cmd
+cns =Archangel.cns
+stcommon =common1.cns
+st =Basics.st
+pal1=AvX1.act
+pal2=AvX2.act
+pal3=AvX3.act
+pal4=AvX4.act
+pal5=AvX5.act
+pal6=AvX6.act
+pal7=AvX7.act
+pal8=AvX8.act
+pal9=AvX9.act
+pal10=AvX10.act
+pal11=AvX11.act
+pal12=AvX12.act
+st1=Specials.st
+st2=Hypers.st
+st3=Statedef-2.st
+st4=Statedef-3.st
+st5=Flight.st
+st6=
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 
