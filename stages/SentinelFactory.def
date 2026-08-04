@@ -1,0 +1,110 @@
+
+[Info]
+name = "Sentinel Factory"
+mugenversion = 1.0        
+Author = "OldGamer"    
+
+[Camera]
+startx = 0
+starty = 0
+boundleft=  -230
+boundright=  230
+boundhigh = -230
+boundlow = 0
+verticalfollow = .5
+floortension = 75
+tension = 50
+
+[PlayerInfo]
+p1startx = -70
+p1starty = 0            
+p1startz = 0
+p1facing = 1            
+
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+
+leftbound  = -1000 
+rightbound =  1000 
+topbound  =  0     
+botbound  =  0     
+
+[Bound]
+screenleft = 16    
+screenright = 16
+
+[Scaling]
+topz     = 0       
+botz     = 50      
+topscale = 1       
+botscale = 1.2    
+
+[StageInfo]
+zoffset = 215
+autoturn = 1
+resetBG = 1
+localcoord = 320,240
+
+[Shadow]
+color = 0,0,0
+yscale = .1
+reflect = 0
+
+[Music]
+bgmusic =sound/SentinelFactory.mp3
+bgvolume = 120
+
+[BGdef]
+spr = SentinelFactory.sff
+debugbg = 0
+
+[BG 0]
+type = normal
+spriteno = 0,0
+delta = 0,0
+start = 0,0
+mask = 1
+
+[BG 2]
+type = normal
+spriteno = 0,1
+delta = .2,1
+start = 0,0
+tile = 1,1
+mask = 1
+velocity = 0, 3
+
+[BG 1]
+type = normal
+spriteno = 0,2
+delta = .3,1
+start = 0,150
+mask = 1
+ID=1
+
+[BG 3]
+type = normal
+spriteno = 0,3
+delta = .4,1
+start = 0,147
+tile = 0,1
+mask = 1
+velocity = 0, -3
+
+[BG 1]
+type = normal
+spriteno = 0,4
+delta = 1,1
+start = 0,148
+mask = 1
+tile = 1,0
+
+[BGCtrlDef]
+CtrlID = 1
+
+[BGCtrl Shake Amount Y]
+type = SinY
+time = 0
+value = 2,150,0

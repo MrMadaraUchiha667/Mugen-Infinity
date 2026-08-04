@@ -1,0 +1,561 @@
+
+[Info]
+name 		= "Symbiote_cave_2"
+displayname 	= "Symbiote_cave_2"
+versiondate 	= 1
+mugenversion 	= 1.0
+author 		= "Farengeit & Predatorsru"
+
+[Camera]
+startx 		= 0
+starty 		= 0
+boundleft = -230
+boundright = 230
+boundhigh = -170
+boundlow 	          = 50
+tension = 100
+verticalfollow = 0.99
+floortension = 30
+overdrawhigh 	= 0
+overdrawlow 	= 0
+cuthigh            	= 35
+cutlow 		= 25
+
+[PlayerInfo]
+p1startx = -90
+p1starty 	= 0
+p1facing 	= 1
+p2startx = 90
+p2starty 	= 0
+p2facing 	= -1
+p3startx 	= -160
+p3starty 	= 0
+p3facing 	= 1
+p4startx 	= 160
+p4starty 	= 0
+p4facing 	= -1
+leftbound 	= -600
+rightbound 	= 600
+
+[Bound]
+screenleft 	= 10
+screenright 	= 10
+
+[StageInfo]
+zoffset = 230
+autoturn 	= 1
+resetBG 	= 0
+localcoord 	= 320,240
+xscale 		= 1
+yscale 		= 1
+zoffsetlink = -1
+
+[Shadow]
+color 		= 0,0,0
+yscale 		= .4
+
+[Music]
+bgmusic 	= sound/Symbiotecave.mp3
+bgmvolume 	= 100
+
+[BGdef]
+spr 		= stages/Symbiote_cave_2.sff
+debugbg 	= 0
+
+
+[BG Back]
+type = Normal
+delta = 0.07, 0.07
+spriteno = 0, 0
+
+[BG Wallow]
+type = Anim
+actionno = 20
+start = 14, 207
+sin.x = 500, 1000
+
+[BG Wallow_Symbiote]
+type = Anim
+actionno = 21
+start = -51, 207.4
+sin.x = 500, 1000
+
+[BG Middle]
+type = Normal
+spriteno = 0, 1
+mask = 1
+start = -1, 0
+
+[BG Floor]
+type = Normal
+Spriteno = 0,2
+start = 1, 208
+mask                = 1
+delta = 1.5, 1
+
+[BG ManyFaces]
+type = Anim
+actionno = 1
+start = -340, -154
+
+[BG ManyFaces -1]
+type = Anim
+actionno = 2
+start = 312, -154
+
+[BG MiddleFace1]
+type = Normal
+Spriteno = 2,0
+start = -117, -108
+mask  = 1
+
+[BG MiddleFace1]
+type = Normal
+Spriteno = 2,1
+start = -121, -100
+mask  = 1
+sin.y = 2.1, 40
+
+[BG MiddleFace2]
+type = Anim
+Actionno = 3
+start = 72, -68
+mask  = 1
+
+[BG MiddleFace2]
+type = Anim
+Actionno = 4
+start = 76, -60
+mask  = 1
+sin.y = 2.1, 40, 3.1
+
+[BG MiddleFace3]
+type = Normal
+Spriteno = 2,0
+start = 131, -158
+mask  = 1
+
+[BG MiddleFace3]
+type = Normal
+Spriteno = 2,1
+start = 127, -150
+mask  = 1
+sin.y = 2.1, 40, 2.5
+
+[BG MiddleFace4]
+type = Anim
+Actionno = 3
+start = -180, -150
+mask  = 1
+
+[BG MiddleFace4]
+type = Anim
+Actionno = 4
+start = -176, -142
+mask  = 1
+sin.y = 2.1, 40, 1.1
+
+[BG MiddleFace5]
+type = Anim
+Actionno = 3
+start = -48, -174
+mask  = 1
+
+[BG MiddleFace5]
+type = Anim
+Actionno = 4
+start = -44, -166
+mask  = 1
+sin.y = 2.1, 40, 0.5
+
+[BG MiddleFace6]
+type = Normal
+Spriteno = 2,0
+start = 201, -28
+mask  = 1
+
+[BG MiddleFace6]
+type = Normal
+Spriteno = 2,1
+start = 197, -20
+mask  = 1
+sin.y = 2.1, 40, 0.3
+
+[BG BigFace]
+type = Normal
+Spriteno = 3,0
+start = 0, -93
+mask  = 1
+
+[BG BigFace]
+type = Normal
+Spriteno = 3,1
+start = -2, -60
+mask  = 1
+sin.y = 8.1, 350
+
+[BG Symb 1]
+type = Normal
+spriteno = 12, 0
+mask = 1
+start = -288, 79
+
+[BG Symb 2]
+type = Normal
+spriteno = 13, 0
+mask = 1
+start = -349, 74
+
+[BG LookingSymb1]
+type = Anim
+actionno = 14
+start = 300, 44
+
+[BG LookingSymb2]
+type = Anim
+actionno = 15
+start = -286, 26
+
+[BG Cocoon]
+type = Anim
+actionno = 11
+start = 285, 131
+
+;[BG Web]
+;type = Anim
+;actionno = 40
+;start = 396, 1
+
+;[BG Tent 1]
+;type = Normal
+;spriteno = 10, 0
+;start = -285, 91
+;mask = 1
+
+;[BG Tent 2]
+;type = Normal
+;spriteno = 10, 1
+;start = -231, 100
+;mask = 1
+
+;[BG Tentacles]
+;type = Anim
+;actionno = 10
+;start = -256, 101
+
+[BG DarkSymb]
+type = Anim
+actionno = 16
+start = -188, 203
+
+[BG Symbyote_stand]
+type = Anim
+actionno = 30
+start = 144, 205
+
+[BG Bat]
+type = Anim
+actionno = 50
+start = -513, 26
+ID = 50
+layer = 1
+
+[BG Bat 1]
+type = Anim
+actionno = 51
+start = -458, 26
+ID = 50
+layer = 1
+
+[BG Bat 2]
+type = Anim
+actionno = 52
+start = -552, 64
+ID = 50
+layer = 1
+
+[BG Bat 3]
+type = Anim
+actionno = 53
+start = -487, 65
+ID = 50
+layer = 1
+
+; Back
+[Begin Action 0]
+0,1, 0,0,-1
+
+
+; Face 1
+[Begin Action 1]
+1,0, 0,0, 100
+1,1, 0,0, 10
+1,2, 0,0, 10
+1,3, 0,0, 100
+1,2, 0,0, 10
+1,1, 0,0, 10
+1,0, 30,-30, 100
+1,1, 30,-30, 10
+1,2, 30,-30, 10
+1,3, 30,-30, 100
+1,2, 30,-30, 10
+1,1, 30,-30, 10
+1,0, 0,-40, 100, H
+1,1, 0,-40, 10, H
+1,2, 0,-40, 10, H
+1,3, 0,-40, 100, H
+1,2, 0,-40, 10, H
+1,1, 0,-40, 10, H
+1,0, 0,0, 100, H
+1,1, 0,0, 10, H
+1,2, 0,0, 10, H
+1,3, 0,0, 100, H
+1,2, 0,0, 10, H
+1,1, 0,0, 10, H
+1,0, 0,50, 100
+1,1, 0,50, 10
+1,2, 0,50, 10
+1,3, 0,50, 100
+1,2, 0,50, 10
+1,1, 0,50, 10
+1,0, 120,20, 100, H
+1,1, 120,20, 10, H
+1,2, 120,20, 10, H
+1,3, 120,20, 100, H
+1,2, 120,20, 10, H
+1,1, 120,20, 10, H
+1,0, 10,15, 100, H
+1,1, 10,15, 10, H
+1,2, 10,15, 10, H
+1,3, 10,15, 100, H
+1,2, 10,15, 10, H
+1,1, 10,15, 10, H
+
+; Face -1
+[Begin Action 2]
+1,0, 0,0, 125, H
+1,1, 0,0, 10, H
+1,2, 0,0, 10, H
+1,3, 0,0, 100, H
+1,2, 0,0, 10, H
+1,1, 0,0, 10, H
+1,0, 30,-30, 100, H
+1,1, 30,-30, 10, H
+1,2, 30,-30, 10, H
+1,3, 30,-30, 100, H
+1,2, 30,-30, 10, H
+1,1, 30,-30, 10, H
+1,0, 0,-20, 100
+1,1, 0,-20, 10
+1,2, 0,-20, 10
+1,3, 0,-20, 100
+1,2, 0,-20, 10
+1,1, 0,-20, 10
+1,0, 0,0, 100
+1,1, 0,0, 10
+1,2, 0,0, 10
+1,3, 0,0, 100
+1,2, 0,0, 10
+1,1, 0,0, 10
+1,0, 20,50, 100, H
+1,1, 20,50, 10, H
+1,2, 20,50, 10, H
+1,3, 20,50, 100, H
+1,2, 20,50, 10, H
+1,1, 20,50, 10, H
+1,0, -60,-60, 100
+1,1, -60,-60, 10
+1,2, -60,-60, 10
+1,3, -60,-60, 100
+1,2, -60,-60, 10
+1,1, -60,-60, 10
+1,0, 10,15, 100
+1,1, 10,15, 10
+1,2, 10,15, 10
+1,3, 10,15, 100
+1,2, 10,15, 10
+1,1, 10,15, 10
+
+; MiddleFace
+[Begin Action 3]
+2,0, 0,0, -1, H
+
+; MiddleFace
+[Begin Action 4]
+2,1, 0,0, -1, H
+
+; Tentacles
+[Begin Action 10]
+10,0, 0,0, 16
+10,1, 0,0, 16
+
+; Cocoon
+[Begin Action 11]
+11,0, 0,0, 40
+11,1, 0,0, 40
+
+; LookingSymb1
+[Begin Action 14]
+14,0, 0,0, 59, H
+14,1, 0,0, 10, H
+14,2, 0,0, 10, H
+14,3, 0,0, 42, H
+14,2, 0,0, 10, H
+14,1, 0,0, 10, H
+
+; LookingSymb2
+[Begin Action 15]
+15,0, 0,0, 7
+15,1, 0,0, 7
+15,2, 0,0, 7
+15,1, 0,0, 7
+
+; DarkSymb
+[Begin Action 16]
+16,0, 0,0, 47
+16,1, 0,0, 7
+16,2, 0,0, 7
+16,3, 0,0, 7
+16,4, 0,0, 7
+16,5, 0,0, 7
+16,5, 0,0, 7, , AS200D32
+16,5, 0,0, 7, , AS180D32
+16,5, 0,0, 7, , AS160D32
+16,5, 0,0, 7, , AS140D32
+16,5, 0,0, 7, , AS120D32
+16,5, 0,0, 7, , AS100D32
+16,5, 0,0, 7, , AS80D32
+16,5, 0,0, 7, , AS60D32
+16,5, 0,0, 7, , AS40D32
+16,5, 0,0, 7, , AS20D32
+16,5, 0,0, 7, , AS0D32
+16,5, 0,0, 7, , AS20D32
+16,5, 0,0, 7, , AS40D32
+16,5, 0,0, 7, , AS60D32
+16,5, 0,0, 7, , AS80D32
+16,5, 0,0, 7, , AS100D32
+16,5, 0,0, 7, , AS120D32
+16,5, 0,0, 7, , AS140D32
+16,5, 0,0, 7, , AS160D32
+16,5, 0,0, 7, , AS180D32
+16,5, 0,0, 7, , AS200D32
+16,5, 0,0, 7
+16,4, 0,0, 7
+16,3, 0,0, 7
+16,2, 0,0, 7
+16,1, 0,0, 7
+
+; Wallow
+[Begin Action 20]
+20,0, 0,0, -1
+
+; Wallow_Symbiote
+[Begin Action 21]
+-1,0, 0,0, 40
+20,1, 0,0, 7
+20,2, 0,0, 7
+20,3, 0,0, 7
+20,4, 0,0, 7
+20,5, 0,0, 7
+20,6, 0,0, 7
+20,7, 0,0, 7
+20,8, 0,0, 7
+20,9, 0,0, 7
+20,10, 0,0, 7
+20,11, 0,0, 7
+20,12, 0,0, 7
+20,13, 0,0, 7
+20,14, 0,0, 7
+20,15, 0,0, 7
+20,16, 0,0, 7
+
+
+; Symbyote_stand
+[Begin Action 30]
+30,0, 0,0, 50, H
+30,1, 0,0, 10, H
+30,2, 0,0, 10, H
+30,3, 0,0, 10, H
+30,4, 0,0, 10, H
+30,5, 0,0, 10, H
+30,6, 0,0, 10, H
+30,7, 0,0, 10, H
+30,8, 0,0, 10, H
+30,9, 0,0, 10, H
+30,10, 0,0, 10, H
+30,11, 0,0, 10, H
+30,12, 0,0, 10, H
+30,11, 0,0, 10, H
+30,10, 0,0, 10, H
+30,9, 0,0, 10, H
+30,8, 0,0, 10, H
+30,7, 0,0, 10, H
+30,6, 0,0, 10, H
+30,5, 0,0, 10, H
+30,4, 0,0, 10, H
+30,3, 0,0, 10, H
+30,2, 0,0, 10, H
+30,1, 0,0, 10, H
+
+
+
+
+
+; Web
+[Begin Action 40]
+40,0, 0,0, -1, , A
+
+; Bat
+[Begin Action 50]
+50,0, 0,0, 2
+50,1, 0,0, 2
+50,2, 0,0, 2
+50,3, 0,0, 2
+50,2, 0,0, 2
+50,1, 0,0, 2
+
+; Bat 1
+[Begin Action 51]
+50,1, 0,0, 2
+50,2, 0,0, 2
+50,3, 0,0, 2
+50,2, 0,0, 2
+50,1, 0,0, 2
+50,0, 0,0, 2
+
+
+; Bat 2
+[Begin Action 52]
+50,2, 0,0, 2
+50,3, 0,0, 2
+50,2, 0,0, 2
+50,1, 0,0, 2
+50,0, 0,0, 2
+50,1, 0,0, 2
+
+
+; Bat 3
+[Begin Action 53]
+50,3, 0,0, 2
+50,2, 0,0, 2
+50,1, 0,0, 2
+50,0, 0,0, 2
+50,1, 0,0, 2
+50,2, 0,0, 2
+
+[BGCtrlDef Bats]
+looptime = 1500
+
+[BGCtrl Bats]
+type = VelSet
+x = 5
+y = 0
+time = 1, 800, 800
+ctrlID = 50
+
+[BGCtrl Bats]
+type = PosSet
+x = 0
+y = 0
+time = 600, 800, 800
+ctrlID = 50
