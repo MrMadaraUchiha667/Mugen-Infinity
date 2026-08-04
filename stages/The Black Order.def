@@ -1,0 +1,344 @@
+[Info]
+name = "The Black Order"
+displayname = "The Black Order"
+mugen version = 1.0
+author = "Bambulin(bam77)"
+
+[Camera]
+startx = 0
+starty = 0
+boundleft =  -140;-64
+boundright =  140;64
+boundhigh = -130
+boundlow = 0
+verticalfollow = .8
+tension = 50
+floortension = 70
+
+[PlayerInfo]
+p1startx = -70
+p1starty = 0
+p1startz = 0
+p1facing = 1
+
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+
+leftbound  = -1000
+rightbound =  1000
+topbound  =  0
+botbound  =  0
+
+[Scaling]
+topz     = 0
+botz     = 50
+topscale = 1
+botscale = 1.2
+
+[Bound]
+screenleft = 20;10;15
+screenright = 20;10;15
+
+[StageInfo]
+zoffset = 215
+autoturn = 1
+resetBG = 0
+
+[Shadow]
+yscale = .1
+color = 128,128,128
+
+[Music]
+bgmusic = sound/Theblackorder.mp3
+bgvolume = 255
+
+[BGdef]
+spr =stages/Theblackorder.sff
+debugbg = 0
+
+[BG Background]
+type = anim
+actionno = 1
+delta = .85,.8;.45, .8
+mask = 1
+
+[Begin Action 1]
+loopstart
+1,0, 0,0, 3
+;1,1, 0,0, 3
+;1,2, 0,0, 5
+;1,3, 0,0, 5
+;1,4, 0,0, 5
+;1,5, 0,0, 5
+;1,4, 0,0, 5
+;1,3, 0,0, 5
+;1,2, 0,0, 5
+;1,1, 0,0, 5
+
+[BG planet]
+type = normal
+spriteno = 2,0
+delta = .85,.8;.45, .8
+mask = 1
+
+[BG planet]
+type = normal
+spriteno = 4,0
+delta = .85,.8;.45, .8
+mask = 1
+
+[BG star1]
+type = normal
+spriteno = 7,0
+delta = .85,.8;.45, .8
+mask = 1
+trans = add
+
+[BG star2]
+type = normal
+spriteno = 8,0
+delta = .85,.8;.45, .8
+mask = 1
+trans = add
+
+[BG stone3]
+type = normal
+spriteno = 23,0
+delta = .87,.8;.45, .8
+mask = 1
+tile = 1,0
+velocity = 0.1,0
+
+
+;[BG estela]
+;type = anim
+;actionno = 5
+;delta = .90,.8;.45, .8
+;mask = 1
+
+;[Begin Action 5]
+;loopstart
+;5,8, 0,-1000, 120  AS120D120
+;5,0, 0,0, 3  AS120D120
+;5,1, 0,0, 3  AS120D120
+;5,2, 0,0, 5  AS120D120
+;5,3, 0,0, 5  AS120D120
+;5,4, 0,0, 5  AS120D120
+;5,5, 0,0, 5  AS120D120
+;5,6, 0,0, 5  AS120D120
+;5,7, 0,0, 5  AS120D120
+;5,8, 0,0, 5  AS120D120
+
+;[BG estela2]
+;type = anim
+;actionno = 6
+;delta = .90,.8;.45, .8
+;mask = 1
+
+;[Begin Action 6]
+;loopstart
+;6,8, 0,1000, 340  AS120D120
+;6,0, 0,0, 3  AS120D120
+;6,1, 0,0, 3  AS120D120
+;6,2, 0,0, 5  AS120D120
+;6,3, 0,0, 5  AS120D120
+;6,4, 0,0, 5  AS120D120
+;6,5, 0,0, 5  AS120D120
+;6,6, 0,0, 5  AS120D120
+;6,7, 0,0, 5  AS120D120
+;6,8, 0,0, 5  AS120D120
+
+[BG Floor8]
+type = normal
+spriteno = 15,0
+delta = .93,.8;.45, .8
+mask = 1
+
+[BG Floor5]
+type = normal
+spriteno = 3,0
+delta = .95,.8;.45, .8
+mask = 1
+
+[BG Floor4]
+type = normal
+spriteno = 12,0
+delta = .95,.8;.45, .8
+mask = 1
+
+[BG Floor3]
+type = normal
+spriteno = 11,0
+delta = .95,.8;.45, .8
+mask = 1
+
+[BG Floor2]
+type = normal
+spriteno = 9,0
+delta = .98,.8;.45, .8
+mask = 1
+
+[BG throne]
+type = normal
+spriteno = 20,0
+delta = .98,.8;.45, .8
+mask = 1
+
+[BG lightthrone]
+type = anim
+actionno = 21
+delta = .98,.8;.45, .8
+mask = 1
+
+[Begin Action 21]
+loopstart
+21,0, 0,0, 3  AS120D120
+21,1, 0,0, 3  AS120D120
+
+[BG thanos]
+type = anim
+actionno = 19
+delta = .98,.8;.45, .8
+mask = 1
+
+[Begin Action 19]
+loopstart
+19,0, 0,0, 200
+19,1, 0,0, 8
+19,2, 0,0, 8
+19,1, 0,0, 8
+19,2, 0,0, 8
+19,1, 0,0, 8
+19,0, 0,0, 100
+19,3, 0,0, 3
+19,4, 0,0, 50
+19,5, 0,0, 30
+19,6, 0,0, 3
+
+[BG black dwarf]
+type = anim
+actionno = 24
+delta = .98,.8;.45, .8
+mask = 1
+
+[Begin Action 24]
+loopstart
+24,0, 0,0, 150
+24,1, 0,0, 12
+24,2, 0,0, 12
+24,1, 0,0, 12
+24,2, 0,0, 12
+24,1, 0,0, 12
+24,2, 0,0, 12
+24,1, 0,0, 12
+24,2, 0,0, 12
+
+[BG nebula]
+type = anim
+actionno = 26
+delta = .98,.8;.45, .8
+mask = 1
+
+[Begin Action 26]
+loopstart
+26,0, 0,0, 100
+26,1, 0,0, 10
+26,0, 0,0, 10
+26,1, 0,0, 10
+26,0, 0,0, 10
+26,1, 0,0, 10
+26,0, 0,0, 10
+
+[BG proxima mid.]
+type = normal
+spriteno = 18,0
+delta = .98,.8;.45, .8
+mask = 1
+
+;[Begin Action 18]
+;loopstart
+;18,2, 0,0, 100
+;18,0, 0,0, 100
+;18,1, 0,0, 10
+;18,0, 0,0, 10
+;18,1, 0,0, 10
+;18,0, 0,0, 10
+;18,1, 0,0, 10
+;18,0, 0,0, 10
+;18,1, 0,0, 10
+;18,0, 0,0, 100
+
+[BG supergiant]
+type = normal
+spriteno = 27,0
+delta = .98,.8;.45, .8
+mask = 1
+
+[BG corvus glaive]
+type = normal
+spriteno = 22,0
+delta = .99,.8;.45, .8
+mask = 1
+
+[BG stone1]
+type = anim
+actionno = 16
+delta = .99,.8;.45, .8
+mask = 1
+
+[Begin Action 16]
+loopstart
+16,0, 0,0, 22
+16,0, 0,-1, 22
+16,0, 0,0, 26
+16,0, 0,1, 18
+
+[BG stone2]
+type = anim
+actionno = 17
+delta = .99,.8;.45, .8
+mask = 1
+facing = -1
+
+[Begin Action 17]
+loopstart
+17,0, 0,0, 27
+17,0, 0,1, 22
+17,0, 0,0, 23
+17,0, 0,-1, 22
+
+[BG Floor7]
+type = normal
+spriteno = 14,0
+delta = .99,.8;.45, .8
+mask = 1
+
+[BG Floor6]
+type = normal
+spriteno = 13,0
+delta = .99,.8;.45, .8
+mask = 1
+
+[BG ebony]
+type = anim
+actionno = 25
+delta = .98,.8;.45, .8
+mask = 1
+
+[Begin Action 25]
+loopstart
+25,0, 0,0, 75
+25,1, 0,0, 12
+25,0, 0,0, 12
+25,1, 0,0, 12
+25,0, 0,0, 12
+
+
+[BG Floor]
+type = normal
+spriteno = 0,0
+mask = 1
+;--------------------------------------------------
+;end

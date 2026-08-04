@@ -1,0 +1,220 @@
+;Done by Lord Magus and WarmachineX
+
+[Info]
+name = "The Hidden Land"
+
+[Camera]
+startx = 0
+starty = 0
+boundleft = -187
+boundright = 187
+boundhigh = -171
+boundlow = 0
+verticalfollow = .65
+floortension = 0
+tension = 60
+
+[PlayerInfo]
+p1startx = -70          
+p1starty = 0            
+p1startz = 0            
+p1facing = 1            
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+leftbound  = -1000 
+rightbound =  1000 
+topbound  =  0     
+botbound  =  0    
+
+[Scaling]
+topz     = 0       
+botz     = 50      
+topscale = 1       
+botscale = 1.2     
+
+[Bound]
+screenleft = 15   
+screenright = 15   
+
+[StageInfo]
+zoffset = 220
+autoturn = 1
+resetBG = 1
+
+[Shadow]
+color = 32,32,32
+yscale = -.1
+reflect = 1
+
+[Music]
+bgmusic = sound/hiddenland.mp3
+bgvolume = 40
+
+[BGdef]
+spr = stages/TheHiddenLand.sff
+debugbg = 0
+
+;-----------------------
+[BG fondo]
+type  = normal
+spriteno = 0,0
+mask = 1
+start = 0,140
+delta = 0.48,1
+velocity = .1,0
+tile = 1
+tilespacing = 0,0
+
+[BG hills]
+type  = normal
+spriteno = 0,2
+mask = 1
+start = 0,140
+velocity = 0, 0
+tile = 0, 0
+tilespacing = 0,0
+delta = .5,1
+
+[BG rocks]
+type  = normal
+spriteno = 0,3
+mask = 1
+start = 0,150
+velocity = 0, 0
+tile = 0, 0
+tilespacing = 0,0
+delta = .7,1
+
+[BG eso]
+type  = normal
+spriteno = 0,4
+mask = 1
+start = 0,140
+velocity = 0, 0
+tile = 0, 0
+tilespacing = 0,0
+delta = 1,1
+
+[BG piso]
+type  = normal
+spriteno = 0,5
+mask = 1
+start = 0,145
+velocity = 0, 0
+tile = 0, 0
+tilespacing = 0,0
+delta = 1,1
+
+[BG lock]
+type  = anim
+actionno= 1
+mask = 1
+start = 0,140
+velocity = 0, 0
+tile = 0, 0
+tilespacing = 0,0
+delta = .95,1
+
+[BG clock]
+type  = anim
+actionno= 2
+mask = 1
+start = -2,152
+velocity = 0, 0
+tile = 0, 0
+tilespacing = 0,0
+delta = .7,1
+
+[BG crystal]
+type  = anim
+actionno= 3
+mask = 1
+start = 580,160
+velocity = 0, 0
+tile = 0, 0
+tilespacing = 0,0
+delta = 1.3,1.3
+sin.y = -15, 70
+
+[BG medusa]
+type  = anim
+actionno= 4
+mask = 1
+start = -80,132
+velocity = 0, 0
+tile = 0, 0
+tilespacing = 0,0
+delta = .7,1
+
+--------------------------------------------------------------
+
+
+[Begin Action 1]
+1,1,0,0,1000
+1,2,0,0,10
+1,3,0,0,10
+1,4,0,0,10
+1,5,0,0,10
+1,6,0,0,10
+1,7,0,0,10
+1,8,0,0,10
+1,9,0,0,10
+1,10,0,0,10
+1,11,0,0,10
+1,12,0,0,10
+1,13,0,0,10
+1,14,0,0,10
+1,15,0,0,10
+1,16,0,0,10
+1,17,0,0,1130
+1,18,0,0,10
+1,19,0,0,10
+1,20,0,0,10
+1,21,0,0,10
+1,22,0,0,10
+1,23,0,0,10
+1,24,0,0,10
+
+[Begin Action 2]
+2,1,0,0,1160
+2,2,0,0,10
+2,3,0,0,10
+2,4,0,0,10
+2,5,0,0,10
+2,6,0,0,10
+2,7,0,0,10
+2,8,0,0,10
+2,9,0,0,1000
+2,10,0,0,10
+2,11,0,0,10
+2,12,0,0,10
+2,13,0,0,10
+2,14,0,0,10
+2,15,0,0,10
+2,16,0,0,10
+2,17,0,0,10
+2,18,0,0,10
+2,19,0,0,10
+2,20,0,0,10
+2,21,0,0,10
+
+[Begin Action 3]
+3,0,0,0,3,H
+3,1,0,0,3,H
+3,2,0,0,3,H
+3,3,0,0,3,H
+
+[Begin Action 4]
+4,1,0,0,10
+4,2,0,0,10
+4,3,0,0,10
+4,4,0,0,10
+4,5,0,0,10
+4,6,0,0,10
+4,7,0,0,10
+4,8,0,0,10
+4,9,0,0,10
+4,10,0,0,10
+4,11,0,0,10
