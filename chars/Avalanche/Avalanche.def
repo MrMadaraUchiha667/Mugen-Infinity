@@ -1,0 +1,38 @@
+[Info]
+name ="Avalanche"
+displayname ="Avalanche"
+versiondate =1.1
+mugenversion =1.1
+author ="Thales Maggot"
+pal.defaults =1,2,3,4,5,6,7
+
+[Files]
+sprite =Avalanche.sff
+anim =Avalanche.air
+sound =Avalanche.snd
+cmd =Avalanche.cmd
+cns =Avalanche.cns
+stcommon =Common1.cns
+st =Basics.st
+pal1=1.act
+pal2=2.act
+pal3=3.act
+pal4=4.act
+pal5=5.act
+pal6=6.act
+pal7=7.act
+pal8=7.act
+pal9=7.act
+pal10=7.act
+pal11=7.act
+pal12=7.act
+st1=Specials.st
+st2=Hypers.st
+st3=Statedef-2.st
+st4=Statedef-3.st
+st5=Flight.st
+st6=Extra.st
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 
