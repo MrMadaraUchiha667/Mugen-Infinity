@@ -1,0 +1,18 @@
+[Info]
+name 		="Banshee"
+displayname 	="Banshee"
+versiondate 	=
+mugenversion 	=1.1
+author 		="Thales M."
+pal.defaults	=1,2
+
+[Files]
+cmd =banshee.cmd
+cns =banshee.cns
+st =banshee.cns
+stcommon =banshee.cns
+sprite =Banshee.sff
+anim =Banshee.air
+sound=Banshee.snd
+pal1=01.act
+pal2=02.act
