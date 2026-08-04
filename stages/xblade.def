@@ -1,0 +1,273 @@
+;stage template by Eternaga , Email: Eternaga@hotmail.com
+
+[Info]
+name = "usa newyork blood bath'"
+mugenversion = 1.0
+
+[BGdef]
+spr = xblade.sff
+debugbg = 0
+
+[Music]
+bgmusic = sound\xblade.mp3
+bgvolume = -100
+
+[Camera]
+startx = 0
+starty = 0
+boundleft = 0
+boundright = 0
+boundhigh = -100
+boundlow = -10
+verticalfollow = 1.5
+floortension = 125
+tension = 125
+zoomin=.8
+zoomout=.5
+
+[PlayerInfo]
+p1startx = -70          
+p1starty = 0            
+p1startz = 0            
+p1facing = 1        
+
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+
+leftbound  = -1000 
+rightbound =  1000 
+topbound  =  0     
+botbound  =  0     
+
+[Scaling] 
+topz     = 0       
+botz     = 50      
+topscale = 1       
+botscale = 1.2     
+
+[Bound]
+screenleft = 15    
+screenright = 15  
+
+[StageInfo]
+zoffset = 215
+autoturn = 1
+resetBG = 1
+
+[shadow]
+Intensity = 90
+color = 0,0,0
+yscale = .2
+fade.range = -400,-100
+
+[Reflection]
+intensity = 0
+
+;----------------------------------------[PCX IMAGE]
+
+;-------------------------
+[BG Back]
+type  = anim
+actionno = 1
+layerno = 0              
+start = -31, 80
+delta = 0.6,.8
+mask = 1
+;---------------------------------------
+[BG A]
+type  = normal
+spriteno = 666,669
+start = 0, 0
+delta = .7, 0.8
+trans       = add
+velocity = .1
+tile = 1, 0
+tilespacing = 0, 0
+mask = 1
+
+
+;---------------------------------------
+[BG Walls]
+type  = anim
+spriteno = 7,2
+layerno = 0                
+start = 7, -50
+delta = 0.7,.8
+mask = 1
+;---------------------------------------
+[BG Walls]
+type  = anim
+actionno = 2
+layerno = 0                
+start = 7, -50
+delta = 0.7,.8
+mask = 1
+;---------------------------------------
+
+[BG light] 
+type = normal
+spriteno = 666, 3
+start = 0,0
+delta = 0.7,.8
+mask=1
+trans=add
+sin.y = 25, 250
+
+
+
+[BG Speakers 1]
+type  = anim
+actionno = 4
+layerno = 0                
+start = -220, 200
+delta = .8,1
+mask = 1
+
+[BG Speakers 2]
+type  = anim
+actionno = 5
+layerno = 0                
+start = 220, 200
+delta = .8,1
+mask = 1
+;---------------------------------------
+[BG Speakers 1]
+type  = anim
+actionno = 4
+layerno = 0                
+start = -210,30
+delta = .9,1
+mask = 1
+
+[BG Speakers 2]
+type  = anim
+actionno = 5
+layerno = 0                
+start = 210, 30
+delta = .9,1
+mask = 1
+
+[BG light] 
+type = normal
+spriteno = 666, 2
+start = 0,0
+delta = .7, 0.8
+mask=1
+trans=add
+sin.y = -25, 250
+
+[BG A]
+type  = normal
+spriteno = 666,666
+start = 0, 0
+delta = .7, 0.8
+trans       = add
+velocity = .2
+tile = 1, 0
+tilespacing = 0, 0
+mask = 1
+
+
+;---------------------------------------
+[BG Rails]
+type  = anim
+actionno = 6
+layerno = 0                
+start = 0, 200
+delta = .95,1
+mask = 1
+;---------------------------------------
+[BG Fighting Ground]
+type  = anim
+actionno = 7
+layerno = 0                
+start = 0, 190
+delta = 1,1
+mask = 1
+
+[BG blood]
+type  = anim
+actionno = 13          
+start = 0, -25
+delta = 1,1
+mask = 1
+[Begin Action 13]
+666,10,0,0,7
+666,11,0,0,7
+666,12,0,0,7
+;---------------------------------------[/PCX IMAGE]
+[BG light] 
+type = normal
+spriteno = 666, 1
+start = 0,0
+delta=1.5,.8
+mask=1
+trans=add
+layerno = 1
+sin.x = 50, 500
+
+[Begin Action 1]
+1,0,0,0,7
+2,1,0,0,7
+1,2,0,0,7
+2,1,0,0,7
+1,0,0,0,7
+2,1,0,0,7
+1,2,0,0,7
+2,1,0,0,7
+
+[Begin Action 2]
+7,0,0,0,5
+7,1,0,0,5
+
+[Begin Action 3]
+8,0,0,0,5
+9,1,0,0,5
+8,2,0,0,5
+9,0,0,0,5
+8,1,0,0,5
+9,2,0,0,5
+
+[Begin Action 4]
+4,0,0,0,7
+5,0,0,0,7
+4,2,0,0,7
+5,0,0,0,7
+4,0,0,0,7
+5,0,0,0,7
+
+[Begin Action 5]
+4,1,0,0,7
+5,1,0,0,7
+4,3,0,0,7
+5,1,0,0,7
+4,1,0,0,7
+5,1,0,0,7
+
+[Begin Action 6]
+10,0,0,0,5
+10,1,0,0,5
+
+[Begin Action 7]
+6,0,0,0,5
+6,1,0,0,5
+
+[Begin Action 8]
+7,2,0,0,5
+7,3,0,0,5
+
+[Begin Action 9]
+11,0,0,0,5
+11,1,0,0,5
+11,2,0,0,5
+11,3,0,0,5
+
+[Begin Action 10]
+12,0,0,0,5,,A
+12,1,0,0,5,,A
+
+[Begin Action 11]
+1,-1,0,0,5,,A
+13,0,0,0,5,,A1

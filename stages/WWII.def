@@ -1,0 +1,100 @@
+;World War II Devistation - Captain America Stage
+;by Acey
+;www.infinitymugenteam.com
+
+[Info]
+name = "World War II"
+
+[Camera]
+startx = 0
+starty = 0
+boundleft = -420
+boundright = 420
+boundhigh = -180
+boundlow = 0
+verticalfollow = 1
+floortension = 75
+tension = 60
+
+[PlayerInfo]
+p1startx = -70
+p1starty = 0
+p1startz = 0
+p1facing = 1
+
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+
+leftbound  = -1000
+rightbound =  1000
+topbound  =  0
+botbound  =  0
+
+[Scaling]
+topz     = 0
+botz     = 50
+topscale = 1
+botscale = 1.2
+
+[Bound]
+screenleft = 25
+screenright = 25
+
+[Shadow]
+color = 30,30,30   
+yscale = .05            
+reflect = 0     
+
+[StageInfo]
+zoffset = 223
+autoturn = 1
+resetBG = 1
+
+[Shadow]
+color = 0,0,0
+yscale = .5
+
+[Music]
+bgmusic = sound/WWII.mp3 
+bgvolume = 255
+
+[BGdef]
+spr = stages/WWII.sff
+debugbg = 1
+
+[BG Wall]
+type  = normal
+spriteno = 1,0
+start = 0, 0
+layerno = 0
+delta = 1,1;.3,.3
+mask     = 0
+
+;[BG Screen]
+;type            = normal
+;spriteno        = 0, 4
+;layerno         = 0
+;start           = 0,0
+;delta           = 1.15,1
+;trans           = None
+;mask            = 1
+
+;[BG Ground]
+;type            = normal
+;spriteno        = 0, 1
+;layerno         = 0
+;start           = 0,0
+;delta           = 1,1
+;trans           = None
+;mask            = 1
+
+;[BG Monitors]
+;type            = normal
+;spriteno        = 0, 3
+;layerno         = 0
+;start           = 0,0
+;delta           = 1.1,1
+;trans           = None
+;mask            = 1
