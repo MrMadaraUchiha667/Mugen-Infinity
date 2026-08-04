@@ -1,0 +1,29 @@
+[Info]
+name ="Ares"
+displayname ="Ares"
+versiondate =1.1
+mugenversion =1.1
+author ="Thales M."
+pal.defaults =1
+
+[Files]
+sprite   =Template.sff
+anim     =Template.air
+sound    =Template.snd
+stcommon =common1.cns
+cmd      =Template.cmd
+cns      =Template.cns
+st       =basics.st
+pal1=pal1.act
+pal2=pal2.act
+pal3=pal3.act
+pal4=pal4.act
+pal5=pal5.act
+pal6=pal6.act
+st1=specials.st
+st2=hypers.st
+st3=overrides.st
+
+[Arcade]
+intro.storyboard=
+ending.storyboard=../data/Ending01.def
