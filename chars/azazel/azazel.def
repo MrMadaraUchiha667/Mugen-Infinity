@@ -1,0 +1,18 @@
+[Info]
+name ="Azazel"
+displayname ="Azazel"
+versiondate =
+mugenversion =1.1
+author ="Thales M."
+pal.defaults =1,2
+
+[Files]
+sprite =azazel.sff
+anim =azazel.air
+sound =azazel.snd
+cmd =azazel.cmd
+cns =azazel.cns
+stcommon =common1.cns
+st =azazel.st
+pal1=01.act
+pal2=02.act
